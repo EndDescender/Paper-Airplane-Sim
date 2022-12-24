@@ -16,7 +16,6 @@ int Airplane::default_data()
     pos[0] = 0.0;
     pos[1] = 0.0;
 
-    time = 0.0;
     impactTime = 0.0;
     impact = false;
 

@@ -1253,3 +1253,8 @@ In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane
 /home/bahram/trick/include/trick/integrator_c_intf.h:22:28: note:   initializing argument 1 of ‘void unload_state(double*, ...)’
    22 | void unload_state (double* arg1, ...);
       |                    ~~~~~~~~^~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::default_data()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:19:5: error: ‘time’ was not declared in this scope; did you mean ‘time_t’?
+   19 |     time = 0.0;
+      |     ^~~~
+      |     time_t
