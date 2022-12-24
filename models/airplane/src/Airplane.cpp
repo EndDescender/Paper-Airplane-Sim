@@ -25,7 +25,7 @@ int Airplane::default_data()
      *http://www.lactea.ufpr.br/wp-content/uploads/2018/08/On_the_Aerodynamics_of_Paper_Airplanes.pdf
     */
 
-    Cd = 0.03;
+    Cd = 32.0;
     Cl = 0.17;
     
     mass = 1;
