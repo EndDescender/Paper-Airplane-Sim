@@ -17,8 +17,6 @@ class Airplane
         double vel[2] ;     /* m/s xy-velocity */
         double pos[2] ;     /* m xy-position */
 
-        double time;        /* s Model time */
-
         bool impact ;       /* -- Has impact occured? */
         double impactTime;  /* s Time of Impact */
 
