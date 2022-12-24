@@ -860,3 +860,49 @@ In file included from /usr/include/c++/11/cstdio:42:
     5 | #include "../include/airplane.hh"
       |          ^~~~~~~~~~~~~~~~~~~~~~~~
 compilation terminated.
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_integ()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:82:14: error: cannot convert ‘double’ to ‘double*’
+   82 |         pos[0],
+      |         ~~~~~^
+      |              |
+      |              double
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:6:
+/home/bahram/trick/include/trick/integrator_c_intf.h:19:25: note:   initializing argument 1 of ‘void load_state(double*, ...)’
+   19 | void load_state(double* arg1, ... );
+      |                 ~~~~~~~~^~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:89:14: error: cannot convert ‘double’ to ‘double*’
+   89 |         vel[0],
+      |         ~~~~~^
+      |              |
+      |              double
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:6:
+/home/bahram/trick/include/trick/integrator_c_intf.h:20:26: note:   initializing argument 1 of ‘void load_deriv(double*, ...)’
+   20 | void load_deriv( double* arg1, ...);
+      |                  ~~~~~~~~^~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:98:14: error: cannot convert ‘double’ to ‘double*’
+   98 |         pos[0],
+      |         ~~~~~^
+      |              |
+      |              double
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:6:
+/home/bahram/trick/include/trick/integrator_c_intf.h:22:28: note:   initializing argument 1 of ‘void unload_state(double*, ...)’
+   22 | void unload_state (double* arg1, ...);
+      |                    ~~~~~~~~^~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::shutdown()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:109:12: warning: declaration of ‘time’ shadows a member of ‘Airplane’ [-Wshadow]
+  109 |     double time = exec_get_sim_time();
+      |            ^~~~
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:5:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/../include/Airplane.hh:20:16: note: shadowed declaration is here
+   20 |         double time;        /* s Model time */
+      |                ^~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:112:25: error: ‘t’ was not declared in this scope
+  112 |     printf( "t = %g\n", t);
+      |                         ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:113:37: error: ‘C’ was not declared in this scope; did you mean ‘Cd’?
+  113 |     printf( "pos = [%.9f, %.9f]\n", C->pos[0], C->pos[1]);
+      |                                     ^
+      |                                     Cd
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:109:12: warning: unused variable ‘time’ [-Wunused-variable]
+  109 |     double time = exec_get_sim_time();
+      |            ^~~~

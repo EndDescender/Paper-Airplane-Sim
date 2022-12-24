@@ -106,7 +106,7 @@ int Airplane::airplane_integ()
 
 int Airplane::shutdown()
 {
-    double time = exec_get_sim_time();
+    double t = exec_get_sim_time();
     printf( "========================================\n");
     printf( "      Cannon Ball State at Shutdown     \n");
     printf( "t = %g\n", t);
