@@ -111,6 +111,7 @@ int Airplane::shutdown()
     printf( "t = %g\n", t);
     printf( "pos = [%.9f, %.9f]\n", pos[0], pos[1]);
     printf( "vel = [%.9f, %.9f]\n", vel[0], vel[1]);
+    printf( "acc = [%.9f, %.9f]\n", acc[0], acc[1]);
     printf( "========================================\n");
     return 0 ;
 }

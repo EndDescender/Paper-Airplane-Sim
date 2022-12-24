@@ -1,0 +1,16 @@
+|L   0|2022/12/23,23:24:19|Braums| |T 0|40.000000| 
+     REALTIME SHUTDOWN STATS:
+            ACTUAL INIT TIME:        0.170
+         ACTUAL ELAPSED TIME:        0.183
+|L   0|2022/12/23,23:24:19|Braums| |T 0|40.000000| 
+SIMULATION TERMINATED IN
+  PROCESS: 0
+  ROUTINE: Executive_loop_single_thread.cpp:98
+  DIAGNOSTIC: Reached termination time
+
+       SIMULATION START TIME:        0.000
+        SIMULATION STOP TIME:       40.000
+     SIMULATION ELAPSED TIME:       40.000
+        ACTUAL CPU TIME USED:        0.142
+       SIMULATION / CPU TIME:      282.672
+     INITIALIZATION CPU TIME:        0.139
