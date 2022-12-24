@@ -2509,3 +2509,113 @@
     </member>
   </class>
 
+  <class name="Airplane">
+    <member
+      name="vel0"
+      type="double"
+      io_attributes="10"
+      units="m"
+      description="Init velocity of cannonball">
+      <dimension>2</dimension>
+    </member>
+    <member
+      name="pos0"
+      type="double"
+      io_attributes="10"
+      units="m"
+      description="Init position of cannonball">
+      <dimension>2</dimension>
+    </member>
+    <member
+      name="init_speed"
+      type="double"
+      io_attributes="10"
+      units="m/s"
+      description="Init barrel speed">
+    </member>
+    <member
+      name="angle"
+      type="double"
+      io_attributes="10"
+      units="rad"
+      description="Angle of cannon">
+    </member>
+    <member
+      name="acc"
+      type="double"
+      io_attributes="15"
+      units="m/s2"
+      description="xy-acceleration">
+      <dimension>2</dimension>
+    </member>
+    <member
+      name="vel"
+      type="double"
+      io_attributes="15"
+      units="m/s"
+      description="xy-velocity">
+      <dimension>2</dimension>
+    </member>
+    <member
+      name="pos"
+      type="double"
+      io_attributes="15"
+      units="m"
+      description="xy-position">
+      <dimension>2</dimension>
+    </member>
+    <member
+      name="impact"
+      type="bool"
+      io_attributes="15"
+      units="--"
+      description="Has impact occured?">
+    </member>
+    <member
+      name="impactTime"
+      type="double"
+      io_attributes="15"
+      units="s"
+      description="Time of Impact">
+    </member>
+    <member
+      name="mass"
+      type="double"
+      io_attributes="10"
+      units="kg">
+    </member>
+    <member
+      name="Cd"
+      type="double"
+      io_attributes="15"
+      units="--"
+      description="Coefficient of Drag">
+    </member>
+    <member
+      name="Cl"
+      type="double"
+      io_attributes="15"
+      units="--"
+      description="Coefficient of Lift">
+    </member>
+    <member
+      name="surfaceArea"
+      type="double"
+      io_attributes="15"
+      units="m^2">
+    </member>
+    <member
+      name="crossArea"
+      type="double"
+      io_attributes="15"
+      units="m^2">
+    </member>
+    <member
+      name="airDensity"
+      type="double"
+      io_attributes="15"
+      units="--"
+      description="Constant air density at sea level">
+    </member>
+  </class>
+

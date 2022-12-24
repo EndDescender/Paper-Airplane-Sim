@@ -1,3 +1,9 @@
-/home/bahram/trick/libexec/trick/make_makefile_src /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp 2>&1
+/home/bahram/trick/libexec/trick/make_makefile_swig
+/home/bahram/trick/bin/trick-ICG -m  -g -Wall -Wextra -Wshadow -Imodels -isystem/home/bahram/trick/trick_source -isystem/home/bahram/trick/include -isystem/home/bahram/trick/include/trick/compat -DTRICK_VER=19 -DTRICK_MINOR=6 -fpic  -DUSE_ER7_UTILS_INTEGRATORS S_source.hh
+[34mWriting    [39mbuild/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/io_Airplane.cpp
+[34mWriting[39m    Makefile_io_src
+/home/bahram/trick/libexec/trick/make_makefile_src build/Makefile_io_src /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/Airplane.hh /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp 2>&1
+[34mDepTracing[0m /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/Airplane.hh
 [34mDepTracing[0m /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp
+/usr/bin/g++ -g -Wall -Wextra -Wshadow -Imodels -isystem/home/bahram/trick/trick_source -isystem/home/bahram/trick/include -isystem/home/bahram/trick/include/trick/compat -DTRICK_VER=19 -DTRICK_MINOR=6 -fpic  -DUSE_ER7_UTILS_INTEGRATORS -MMD -MP -c -o build/S_source.o build/S_source.cpp
 /usr/bin/g++ -g -Wall -Wextra -Wshadow -Imodels -isystem/home/bahram/trick/trick_source -isystem/home/bahram/trick/include -isystem/home/bahram/trick/include/trick/compat -DTRICK_VER=19 -DTRICK_MINOR=6 -fpic  -DUSE_ER7_UTILS_INTEGRATORS -I/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/../include -MMD -MP -c -o build/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.o /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp
