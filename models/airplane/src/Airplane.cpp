@@ -25,12 +25,12 @@ int Airplane::default_data()
      *http://www.lactea.ufpr.br/wp-content/uploads/2018/08/On_the_Aerodynamics_of_Paper_Airplanes.pdf
     */
 
-    Cd = .03;
-    Cl = .17;
+    Cd = 0.03;
+    Cl = 0.17;
     
-    mass = .005;
-    surfaceArea = .023;
-    crossArea = .008;
+    mass = 0.005;
+    surfaceArea = 0.023;
+    crossArea = 0.008;
 
     airDensity = 1.225;
     
@@ -59,7 +59,7 @@ int Airplane::airplane_deriv()
     double forceDrag = 0.5 * Cd * airDensity * crossArea * velocity * velocity;
 
     double forceY = forceGravity + forceLift;
-    double forceX = forceDrag;
+    double forceX = -forceDrag;
 
     if (!impact)
     {
