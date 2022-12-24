@@ -28,7 +28,7 @@ int Airplane::default_data()
     Cd = 0.03;
     Cl = 0.17;
     
-    mass = 1;
+    mass = .005;
     surfaceArea = 0.023;
     crossArea = 0.008;
 
