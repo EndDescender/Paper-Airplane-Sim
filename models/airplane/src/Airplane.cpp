@@ -51,7 +51,7 @@ int Airplane::initial_data()
 
 int Airplane::airplane_deriv()
 {
-    double forceGravity = mass * acc[1];
+    double forceGravity = mass * -9.81;
 
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * pow(hypot(vel[0], vel[1]), 2);
 
