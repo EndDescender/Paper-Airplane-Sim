@@ -28,7 +28,7 @@ int Airplane::default_data()
     Cd = .03;
     Cl = .17;
     
-    mass = .005
+    mass = .005;
     surfaceArea = .023;
     crossArea = .008;
 
@@ -53,9 +53,9 @@ int Airplane::airplane_deriv()
 {
     double forceGravity = mass * acc[1];
 
-    double forceLift = 0.5 * Cl * airDensity * surfaceArea * pow(hypot(vel[0], vel[1]), 2)
+    double forceLift = 0.5 * Cl * airDensity * surfaceArea * pow(hypot(vel[0], vel[1]), 2);
 
-    double forceDrag = 0.5 * Cd * airDensity * crossArea * pow(hypot(vel[0], vel[1]), 2)
+    double forceDrag = 0.5 * Cd * airDensity * crossArea * pow(hypot(vel[0], vel[1]), 2);
 
     double forceY = forceGravity + forceLift;
     double forceX = forceDrag;

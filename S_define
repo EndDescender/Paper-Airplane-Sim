@@ -13,17 +13,17 @@ LIBRARY DEPENDENCIES:
 class PaperAirplaneSimObject : public Trick::SimObject 
 {
     public : 
-    Airplane paperPlane;
+        Airplane paperPlane;
 
-    PaperAirplaneSimObject()
-    {
-        ("default_data")    paperPlane.default_data();
-        ("initialization")  paperPlane.initial_data();
-        ("derivative")      paperPlane.airplane_deriv();
-        ("integration")     trick_ret = paperPlane.airplane_integ();
-        ("shutdown")        paperPlane.shutdown();
-    }
-}
+        PaperAirplaneSimObject()
+        {
+            ("default_data")    paperPlane.default_data();
+            ("initialization")  paperPlane.initial_data();
+            ("derivative")      paperPlane.airplane_deriv();
+            ("integration")     trick_ret = paperPlane.airplane_integ();
+            ("shutdown")        paperPlane.shutdown();
+        }
+} ;
 
 PaperAirplaneSimObject dyn;
 

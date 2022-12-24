@@ -36,5 +36,6 @@ class Airplane
         int airplane_deriv();
         int airplane_integ();
         int shutdown();
-}
+};
+
 #endif
