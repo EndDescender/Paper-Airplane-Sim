@@ -51,7 +51,8 @@ int Airplane::initial_data()
 
 int Airplane::airplane_deriv()
 {
-    double velocity = hypot(vel[0], vel[1]);
+    double velocitySquared = pow(vel[0], 2) + pow(vel[1], 2);
+    double velocity = sqrt(velocitySquared);
     double forceGravity = mass * -9.81;
 
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * velocity * velocity;

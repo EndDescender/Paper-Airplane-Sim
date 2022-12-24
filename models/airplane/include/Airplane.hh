@@ -20,7 +20,7 @@ class Airplane
         bool impact ;       /* -- Has impact occured? */
         double impactTime;  /* s Time of Impact */
 
-        double mass;        /* *i kg */
+        double mass;        /* kg */
         double Cd;          /* -- Coefficient of Drag*/
         double Cl;          /* -- Coefficient of Lift*/
 

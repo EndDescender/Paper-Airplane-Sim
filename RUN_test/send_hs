@@ -1,1 +1,14 @@
-|L   1|2022/12/24,00:16:18|Braums| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   1|2022/12/24,00:20:07|Braums| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   0|2022/12/24,00:21:15|Braums| |T 0|0.000000|     0.000000 pausing before trick_master_slave.master.freeze
+|L   0|2022/12/24,00:21:16|Braums| |T 0|0.000000|     0.000000 pausing before trick_master_slave.slave.freeze
+|L   1|2022/12/24,00:21:22|Braums| |T 0|0.000000| Freeze OFF.
+|L   0|2022/12/24,00:21:22|Braums| |T 0|0.000000|     0.000000 pausing before trick_real_time.rt_sync.unfreeze
+|L   0|2022/12/24,00:21:25|Braums| |T 0|0.000000|     0.000000 pausing before trick_master_slave.master.unfreeze
+|L   0|2022/12/24,00:21:25|Braums| |T 0|0.000000|     0.000000 pausing before trick_master_slave.slave.unfreeze
+|L   0|2022/12/24,00:21:25|Braums| |T 0|0.000000|     0.000000 pausing before trick_em.ep.add_pending_events
+|L   0|2022/12/24,00:21:25|Braums| |T 0|0.000000|     0.000000 pausing before trick_vs.vs.copy_data_top
+|L   0|2022/12/24,00:21:26|Braums| |T 0|0.000000|     0.000000 pausing before trick_injector_executor_0.rtie.Exec
+|L   0|2022/12/24,00:21:26|Braums| |T 0|0.000000|     0.000000 pausing before trick_vs.vs.copy_data_scheduled
+|L   1|2022/12/24,00:21:28|Braums| |T 0|0.100000| Freeze ON. Simulation time holding at 0.100000 seconds.
+|L   1|2022/12/24,00:21:37|Braums| |T 0|0.100000| Freeze OFF.
+|L   1|2022/12/24,00:21:39|Braums| |T 0|15.000000| Freeze ON. Simulation time holding at 15.000000 seconds.
