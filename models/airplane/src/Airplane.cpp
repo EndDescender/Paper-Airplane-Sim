@@ -79,26 +79,26 @@ int Airplane::airplane_integ()
 {
     int ipass;
     load_state(
-        pos[0],
-        pos[1],
-        vel[0],
-        vel[1],
+        &pos[0],
+        &pos[1],
+        &vel[0],
+        &vel[1],
         NULL);
 
     load_deriv(
-        vel[0],
-        vel[1],
-        acc[0],
-        acc[1],
+        &vel[0],
+        &vel[1],
+        &acc[0],
+        &acc[1],
         NULL);
 
     ipass = integrate();
 
     unload_state(
-        pos[0],
-        pos[1],
-        vel[0],
-        vel[1],
+        &pos[0],
+        &pos[1],
+        &vel[0],
+        &vel[1],
         NULL);
 
     return ipass;
