@@ -68,7 +68,7 @@ ATTRIBUTES attrAirplane[] = {
   NULL, NULL, NULL, NULL},
 {"mass", "double", "kg", "", "",
   "",
-  10,TRICK_DOUBLE, sizeof(double), 0, 0, Language_CPP, 0,
+  15,TRICK_DOUBLE, sizeof(double), 0, 0, Language_CPP, 0,
   112, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
 {"Cd", "double", "1", "", "",

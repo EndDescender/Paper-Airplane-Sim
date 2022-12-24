@@ -6,7 +6,7 @@ PURPOSE: (Simulate flight of a paper airplane)
 #include "trick/integrator_c_intf.h"
 #include "trick/exec_proto.h"
 #include <stdio.h>
-#inlcude <stddef.h>
+#include <stddef.h>
 #include <math.h>
 
 int Airplane::default_data()
