@@ -1,0 +1,34 @@
+/************************TRICK HEADER*************************
+PURPOSE:
+    (S_define file for SIM_paper_airplane)
+LIBRARY DEPENDENCIES:
+    (
+      (airplane/src/Airplane.cpp)
+    )
+*************************************************************/
+
+#include "sim_objects/default_trick_sys.sm"
+##include "airplane/include/Airplane.hh"
+
+class PaperAirplaneSimObject : public Trick::SimObject 
+{
+    public : 
+    Airplane paperPlane;
+
+    PaperAirplaneSimObject()
+    {
+        ("default_data")    paperPlane.default_data();
+        ("initialization")  paperPlane.initial_data();
+        ("derivative")      paperPlane.airplane_deriv();
+        ("integration")     trick_ret = paperPlane.airplane_integ();
+        ("shutdown")        paperPlane.shutdown();
+    }
+}
+
+PaperAirplaneSimObject dyn;
+
+IntegLoop dyn_integloop (0.01) dyn ;
+void create_connections() 
+{
+    dyn_integloop.getIntegrator(Runge_Kutta_4, 4);
+}
