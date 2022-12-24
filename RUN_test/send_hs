@@ -1,18 +1,1 @@
-|L   1|2022/12/24,00:24:20|Braums| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
-|L   0|2022/12/24,00:24:58|Braums| |T 0|0.000000| 
-     REALTIME SHUTDOWN STATS:
-     REALTIME TOTAL OVERRUNS:            0
-            ACTUAL INIT TIME:        0.273
-         ACTUAL ELAPSED TIME:       38.281
-|L   0|2022/12/24,00:24:58|Braums| |T 0|0.000000| 
-SIMULATION TERMINATED IN
-  PROCESS: 0
-  ROUTINE: Executive_freeze_loop.cpp:85
-  DIAGNOSTIC: Sim control Shutdown
-
-       SIMULATION START TIME:        0.000
-        SIMULATION STOP TIME:        0.000
-     SIMULATION ELAPSED TIME:        0.000
-        ACTUAL CPU TIME USED:        0.275
-       SIMULATION / CPU TIME:        0.000
-     INITIALIZATION CPU TIME:        0.215
+|L   1|2022/12/24,00:25:23|Braums| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
