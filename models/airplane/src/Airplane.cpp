@@ -2,7 +2,7 @@
 PURPOSE: (Simulate flight of a paper airplane)
 ********************************/
 
-#include "../include/airplane.hh"
+#include "../include/Airplane.hh"
 #include "trick/integrator_c_intf.h"
 #include "trick/exec_proto.h"
 #include <stdio.h>
