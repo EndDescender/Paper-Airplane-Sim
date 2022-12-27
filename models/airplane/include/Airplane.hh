@@ -8,10 +8,11 @@
 class Airplane
 {
     public:
-        double vel0[2] ;    /* *i m Init velocity of cannonball */
-        double pos0[2] ;    /* *i m Init position of cannonball */
-        double init_speed ; /* *i m/s Init barrel speed */
-        double angle ;      /* *i rad Angle of cannon */
+        double vel0[2] ;    /* *i m Init velocity of plane */
+        double pos0[2] ;    /* *i m Init position of plane */
+        double init_speed ; /* *i m/s Init plane speed */
+        double angle ;      /* *i rad Angle of plane */
+        double angleDeg;    /* *i degree Angle of plane in degrees*/
 
         double acc[2] ;     /* m/s2 xy-acceleration  */
         double vel[2] ;     /* m/s xy-velocity */
@@ -23,6 +24,7 @@ class Airplane
         double mass;        /* kg */
         double Cd;          /* -- Coefficient of Drag*/
         double Cl;          /* -- Coefficient of Lift*/
+    
 
         double surfaceArea;  /* m^2 */
         double crossArea;    /* m^2 */

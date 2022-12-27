@@ -9,10 +9,22 @@ PURPOSE: (Simulate flight of a paper airplane)
 #include <stddef.h>
 #include <math.h>
 
+/*
+    Data for Mass, Wing Area, Coefficient of Drag and Coefficient of Lift from
+    http://www.lactea.ufpr.br/wp-content/uploads/2018/08/On_the_Aerodynamics_of_Paper_Airplanes.pdf
+*/
+
+int numElements = 14;
+double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
+double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
+double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
+int i;
+
 int Airplane::default_data()
 {
     init_speed = 20.0;
-    angle = M_PI / 4;
+    angle = M_PI / 6;
+    angleDeg = angle * 180 / M_PI;
 
     pos[0] = 0.0;
     pos[1] = 0.0;
@@ -20,14 +32,6 @@ int Airplane::default_data()
     impactTime = 0.0;
     impact = false;
 
-    /*
-     *Data for Mass, Wing Area, Coefficient of Drag and Coefficient of Lift from
-     *http://www.lactea.ufpr.br/wp-content/uploads/2018/08/On_the_Aerodynamics_of_Paper_Airplanes.pdf
-    */
-
-    Cd = 0.03;
-    Cl = 0.17;
-    
     mass = .005;
     surfaceArea = 0.023;
     crossArea = 0.008;
@@ -55,12 +59,15 @@ int Airplane::airplane_deriv()
     double velocity = sqrt(velocitySquared);
     double forceGravity = mass * -9.81;
 
+    Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+    Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * velocity * velocity;
 
     double forceDrag = 0.5 * Cd * airDensity * crossArea * velocity * velocity;
 
-    double forceY = forceGravity + cos(angle) * forceLift;
-    double forceX = -forceDrag - sin(angle) * forcelift; /*natually this needs to be minus, but this could change*/
+    double forceY = forceGravity + cos(angle) * forceLift - forceDrag * sin(angle);
+    double forceX = -forceDrag * cos(angle) - sin(angle) * forceLift; /*natually this needs to be minus, but this could change*/
 
     if (!impact)
     {
@@ -105,6 +112,52 @@ int Airplane::airplane_integ()
 
     return ipass;
 }
+
+int InterpolateCl(double x, double xValues[], double yValues[])
+{
+    for (i = 0; i+2 < numElements && xValues[i] < x; i++)
+    {
+        if(xValues[i + 1] = x)
+        {
+            return yValues[i + 1];
+        }
+    }
+
+    double lowerX = xValues[i];
+    double upperX = xValues[i + 1];
+    double lowerY = yValues[i];
+    double upperY = yValues[i + 1];
+
+    if (x < lowerX)
+    {
+        return Cl[0];
+    }
+    else if (x > upperX)
+    {
+        return Cl[numElements];
+    }
+    else
+    {
+        return (((upperY - lowerY) / (upperX - lowerX)) * (x - lowerX) + lowerY);
+    }
+}
+
+int InterpolateCd(double y, double xValues[], double yValues[])
+{
+    if (yValues[i] == y)
+    {
+        return xValues[i];
+    }
+    
+    double lowerX = xValues[i];
+    double upperX = xValues[i + 1];
+    double lowerY = yValues[i];
+    double upperY = yValues[i + 1];
+
+    return ((y - lowerY) * (upperX - lowerX)) / (upperY - lowerY) + lowerX
+
+}
+
 
 int Airplane::shutdown()
 {
