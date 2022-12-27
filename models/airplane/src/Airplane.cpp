@@ -117,10 +117,10 @@ double Airplane::InterpolateCl(double x, const double xValues[], const double yV
 {
     for (i = 0; i+2 < numElements && xValues[i] < x; i++)
     {
-        if(xValues[i + 1] == x)
-        {
-            return yValues[i + 1];
-        }
+        // if(xValues[i + 1] == x)
+        // {
+        //     return yValues[i + 1];
+        // }
     }
 
     double lowerX = xValues[i];
@@ -144,10 +144,10 @@ double Airplane::InterpolateCl(double x, const double xValues[], const double yV
 
 double Airplane::InterpolateCd(double y, const double xValues[], const double yValues[])
 {
-    if (yValues[i] == y)
-    {
-        return xValues[i];
-    }
+    // if (yValues[i] == y)
+    // {
+    //     return xValues[i];
+    // }
     
     double lowerX = xValues[i];
     double upperX = xValues[i + 1];
