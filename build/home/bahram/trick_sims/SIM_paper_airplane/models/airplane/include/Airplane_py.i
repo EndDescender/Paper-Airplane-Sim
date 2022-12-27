@@ -19,6 +19,7 @@
 
 #ifndef AIRPLANE_H
 #define AIRPLANE_H
+%import(module="sim_services") "trick/regula_falsi.h"
 
 class Airplane
 {
@@ -62,6 +63,8 @@ class Airplane
         double airDensity;   
 
 
+        REGULA_FALSI rf;
+
         int default_data();
         int initial_data();
         int airplane_deriv();
@@ -69,6 +72,7 @@ class Airplane
         double InterpolateCl(double x, const double xValues[], const double yValues[]);
         double InterpolateCd(double y, const double xValues[], const double yValues[]);
         int shutdown();
+        double airplane_impact();
 };
 #define TRICK_SWIG_DEFINED_Airplane
 

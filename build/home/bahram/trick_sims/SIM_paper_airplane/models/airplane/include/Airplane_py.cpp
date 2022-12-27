@@ -2697,12 +2697,14 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 /* -------- TYPES TABLE (BEGIN) -------- */
 
 #define SWIGTYPE_p_Airplane swig_types[0]
-#define SWIGTYPE_p_char swig_types[1]
-#define SWIGTYPE_p_double swig_types[2]
-#define SWIGTYPE_p_std__invalid_argument swig_types[3]
-#define SWIGTYPE_p_swig__SwigPyIterator swig_types[4]
-static swig_type_info *swig_types[6];
-static swig_module_info swig_module = {swig_types, 5, 0, 0, 0, 0};
+#define SWIGTYPE_p_REGULA_FALSI swig_types[1]
+#define SWIGTYPE_p_Regula_Falsi swig_types[2]
+#define SWIGTYPE_p_char swig_types[3]
+#define SWIGTYPE_p_double swig_types[4]
+#define SWIGTYPE_p_std__invalid_argument swig_types[5]
+#define SWIGTYPE_p_swig__SwigPyIterator swig_types[6]
+static swig_type_info *swig_types[8];
+static swig_module_info swig_module = {swig_types, 7, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -5996,6 +5998,90 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Airplane_rf_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  REGULA_FALSI *arg2 = (REGULA_FALSI *) 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Airplane_rf_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2,SWIGTYPE_p_REGULA_FALSI, 0 |  0 );
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "Airplane_rf_set" "', argument " "2"" of type '" "REGULA_FALSI *""'"); 
+  }
+  arg2 = reinterpret_cast< REGULA_FALSI * >(argp2);
+  if (arg1) (arg1)->rf = *arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Airplane_rf_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  PyObject *swig_obj[1] ;
+  REGULA_FALSI *result = 0 ;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  result = (REGULA_FALSI *)& ((arg1)->rf);
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_REGULA_FALSI, 0 |  0 );
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_Airplane_default_data(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Airplane *arg1 = (Airplane *) 0 ;
@@ -6420,6 +6506,56 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Airplane_airplane_impact(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  result = (double)(arg1)->airplane_impact();
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "Airplane_airplane_impact" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_Airplane___getitem__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Airplane *arg1 = (Airplane *) 0 ;
@@ -6636,6 +6772,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "Airplane_crossArea_get", _wrap_Airplane_crossArea_get, METH_O, NULL},
 	 { "Airplane_airDensity_set", _wrap_Airplane_airDensity_set, METH_VARARGS, NULL},
 	 { "Airplane_airDensity_get", _wrap_Airplane_airDensity_get, METH_O, NULL},
+	 { "Airplane_rf_set", _wrap_Airplane_rf_set, METH_VARARGS, NULL},
+	 { "Airplane_rf_get", _wrap_Airplane_rf_get, METH_O, NULL},
 	 { "Airplane_default_data", _wrap_Airplane_default_data, METH_O, NULL},
 	 { "Airplane_initial_data", _wrap_Airplane_initial_data, METH_O, NULL},
 	 { "Airplane_airplane_deriv", _wrap_Airplane_airplane_deriv, METH_O, NULL},
@@ -6643,6 +6781,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "Airplane_InterpolateCl", _wrap_Airplane_InterpolateCl, METH_VARARGS, NULL},
 	 { "Airplane_InterpolateCd", _wrap_Airplane_InterpolateCd, METH_VARARGS, NULL},
 	 { "Airplane_shutdown", _wrap_Airplane_shutdown, METH_O, NULL},
+	 { "Airplane_airplane_impact", _wrap_Airplane_airplane_impact, METH_O, NULL},
 	 { "Airplane___getitem__", _wrap_Airplane___getitem__, METH_VARARGS, NULL},
 	 { "Airplane___len__", _wrap_Airplane___len__, METH_O, NULL},
 	 { "new_Airplane", _wrap_new_Airplane, METH_NOARGS, NULL},
@@ -6661,6 +6800,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 /* -------- TYPE CONVERSION AND EQUIVALENCE RULES (BEGIN) -------- */
 
 static swig_type_info _swigt__p_Airplane = {"_p_Airplane", "Airplane *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_REGULA_FALSI = {"_p_REGULA_FALSI", "REGULA_FALSI *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Regula_Falsi = {"_p_Regula_Falsi", "enum Regula_Falsi *|Regula_Falsi *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_char = {"_p_char", "char *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_double = {"_p_double", "double *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_std__invalid_argument = {"_p_std__invalid_argument", "std::invalid_argument *", 0, 0, (void*)0, 0};
@@ -6668,6 +6809,8 @@ static swig_type_info _swigt__p_swig__SwigPyIterator = {"_p_swig__SwigPyIterator
 
 static swig_type_info *swig_type_initial[] = {
   &_swigt__p_Airplane,
+  &_swigt__p_REGULA_FALSI,
+  &_swigt__p_Regula_Falsi,
   &_swigt__p_char,
   &_swigt__p_double,
   &_swigt__p_std__invalid_argument,
@@ -6675,6 +6818,8 @@ static swig_type_info *swig_type_initial[] = {
 };
 
 static swig_cast_info _swigc__p_Airplane[] = {  {&_swigt__p_Airplane, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_REGULA_FALSI[] = {  {&_swigt__p_REGULA_FALSI, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Regula_Falsi[] = {  {&_swigt__p_Regula_Falsi, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_char[] = {  {&_swigt__p_char, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_double[] = {  {&_swigt__p_double, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_std__invalid_argument[] = {  {&_swigt__p_std__invalid_argument, 0, 0, 0},{0, 0, 0, 0}};
@@ -6682,6 +6827,8 @@ static swig_cast_info _swigc__p_swig__SwigPyIterator[] = {  {&_swigt__p_swig__Sw
 
 static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_Airplane,
+  _swigc__p_REGULA_FALSI,
+  _swigc__p_Regula_Falsi,
   _swigc__p_char,
   _swigc__p_double,
   _swigc__p_std__invalid_argument,

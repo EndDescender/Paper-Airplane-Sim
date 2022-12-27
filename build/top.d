@@ -117,6 +117,7 @@ build/top.cpp: \
   /home/bahram/trick/include/trick/exec_proto.hh \
   /home/bahram/trick/include/trick/jit_input_file_proto.hh \
   build/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/Airplane_py.i \
+  /home/bahram/trick/include/trick/regula_falsi.h \
   /home/bahram/trick/include/trick/clock_proto.h \
   /home/bahram/trick/include/trick/data_record_proto.h \
   /home/bahram/trick/include/trick/env_proto.h \
@@ -359,6 +360,8 @@ build/home/bahram/trick_sims/SIM_paper_airplane/S_source_py.i:
 /home/bahram/trick/include/trick/jit_input_file_proto.hh:
 
 build/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/Airplane_py.i:
+
+/home/bahram/trick/include/trick/regula_falsi.h:
 
 /home/bahram/trick/include/trick/clock_proto.h:
 

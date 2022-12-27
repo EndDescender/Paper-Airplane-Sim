@@ -1,5 +1,5 @@
 
-/* Created 2022/12/26 19:55:03 bahram $ */
+/* Created 2022/12/27 00:17:27 bahram $ */
 #include "../S_source.hh"
 
 
@@ -1015,7 +1015,7 @@ int PaperAirplaneSimObject::call_function ( Trick::JobData * curr_job ) {
         case 3:
             trick_ret = paperPlane.airplane_integ() ;
             break ;
-        case 4:
+        case 5:
             paperPlane.shutdown() ;
             break ;
         default:
@@ -1032,6 +1032,9 @@ double PaperAirplaneSimObject::call_function_double ( Trick::JobData * curr_job 
     if ( curr_job->disabled ) return (trick_ret) ;
 
     switch ( curr_job->id ) {
+        case 4:
+            trick_ret = paperPlane.airplane_impact() ;
+            break ;
         default:
             trick_ret = 0.0 ;
             break ;
@@ -1154,8 +1157,8 @@ Trick::ClassSizeCheck * Trick::ClassSizeCheck::pInstance = NULL ;
 void memory_init( void ) {
 
     ALLOC_INFO * ai ;
-    exec_set_version_date_tag( "@(#)CP Version 19.6.0-beta, Mon Dec 26 19:55:03 2022" ) ;
-    exec_set_build_date( "Mon Dec 26 19:55:03 2022" ) ;
+    exec_set_version_date_tag( "@(#)CP Version 19.6.0-beta, Tue Dec 27 00:17:27 2022" ) ;
+    exec_set_build_date( "Tue Dec 27 00:17:27 2022" ) ;
     exec_set_current_version( "19.6.0-beta" ) ;
 
     populate_sim_services_class_map() ;

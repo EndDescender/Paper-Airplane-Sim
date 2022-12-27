@@ -21,6 +21,7 @@ class PaperAirplaneSimObject : public Trick::SimObject
             ("initialization")  paperPlane.initial_data();
             ("derivative")      paperPlane.airplane_deriv();
             ("integration")     trick_ret = paperPlane.airplane_integ();
+            ("dynamic_event")   paperPlane.airplane_impact();
             ("shutdown")        paperPlane.shutdown();
         }
 } ;

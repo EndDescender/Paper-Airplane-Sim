@@ -32,7 +32,7 @@ int Airplane::default_data()
     impactTime = 0.0;
     impact = false;
 
-    mass = .005;
+    mass = .1;
     surfaceArea = 0.023;
     crossArea = 0.008;
 
@@ -160,6 +160,31 @@ double Airplane::InterpolateCd(double y, const double xValues[], const double yV
 
 }
 
+double Airplane::airplane_impact()
+{
+    double tgo;
+    double now;
+
+    rf.error = pos0[1];
+
+    now = get_integ_time();
+    tgo = regula_falsi( now, &rf);
+
+    if (tgo == 0.0) 
+    {                     
+        now = get_integ_time() ;
+        reset_regula_falsi( now, &rf) ; 
+        impact = true ;
+        impactTime = now ;
+        vel[0] = 0.0 ;
+        vel[1] = 0.0 ;
+        acc[0] = 0.0 ; 
+        acc[1] = 0.0 ;
+        fprintf(stderr, "\n\nIMPACT: t = %.9f, pos[0] = %.9f\n\n", now, pos[0] ) ;
+    }
+
+    return tgo;
+}
 
 int Airplane::shutdown()
 {

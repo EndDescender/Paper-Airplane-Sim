@@ -154,6 +154,7 @@ def _swig_setattr_nondynamic(self,class_type,name,value,static=1):
 def _swig_setattr(self,class_type,name,value):
     return _swig_setattr_nondynamic(self,class_type,name,value,1)
 
+import sim_services
 class Airplane(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
@@ -173,6 +174,7 @@ class Airplane(object):
     surfaceArea = property(_mf064c256b46431d6a9c6003406b00477.Airplane_surfaceArea_get, _mf064c256b46431d6a9c6003406b00477.Airplane_surfaceArea_set)
     crossArea = property(_mf064c256b46431d6a9c6003406b00477.Airplane_crossArea_get, _mf064c256b46431d6a9c6003406b00477.Airplane_crossArea_set)
     airDensity = property(_mf064c256b46431d6a9c6003406b00477.Airplane_airDensity_get, _mf064c256b46431d6a9c6003406b00477.Airplane_airDensity_set)
+    rf = property(_mf064c256b46431d6a9c6003406b00477.Airplane_rf_get, _mf064c256b46431d6a9c6003406b00477.Airplane_rf_set)
 
     def default_data(self, *args):
         return _mf064c256b46431d6a9c6003406b00477.Airplane_default_data(self, *args)
@@ -194,6 +196,9 @@ class Airplane(object):
 
     def shutdown(self, *args):
         return _mf064c256b46431d6a9c6003406b00477.Airplane_shutdown(self, *args)
+
+    def airplane_impact(self, *args):
+        return _mf064c256b46431d6a9c6003406b00477.Airplane_airplane_impact(self, *args)
 
     def __getitem__(self, *args):
         return _mf064c256b46431d6a9c6003406b00477.Airplane___getitem__(self, *args)

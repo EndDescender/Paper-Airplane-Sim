@@ -822,7 +822,8 @@ class PaperAirplaneSimObject : public Trick::SimObject
             job = this->add_job(0, 1, "initialization", NULL, 1, "paperPlane.initial_data", "", 60000) ;
             job = this->add_job(0, 2, "derivative", NULL, 1, "paperPlane.airplane_deriv", "", 60000) ;
             job = this->add_job(0, 3, "integration", NULL, 1, "paperPlane.airplane_integ", "", 60000) ;
-            job = this->add_job(0, 4, "shutdown", NULL, 1, "paperPlane.shutdown", "", 60000) ;
+            job = this->add_job(0, 4, "dynamic_event", NULL, 1, "paperPlane.airplane_impact", "", 60000) ;
+            job = this->add_job(0, 5, "shutdown", NULL, 1, "paperPlane.shutdown", "", 60000) ;
         }
 
     public:

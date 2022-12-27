@@ -4,8 +4,8 @@ Trick::Threads (Child_0)
     trigger type = mutex
     number of scheduled jobs = 7
     from Trick::ThreadBase
-    pthread_id = 140314929030976
-    process_id = 6036
+    pthread_id = 140235297523520
+    process_id = 12189
     rt_priority = 0
     cpus = none assigned
 
@@ -139,7 +139,7 @@ Shutdown:
       1 |   0 |shutdown                 | 60000 |          |          |          |  7.12 | trick_message.mdevice.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 11.13 | trick_vs.vs.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 12.06 | trick_data_record.drd.shutdown
-      1 |   0 |shutdown                 | 60000 |          |          |          | 21.04 | dyn.paperPlane.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 21.05 | dyn.paperPlane.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 24.06 | trick_data_record_group_frame_userjobs_main.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 25.06 | trick_data_record_group_frame_trickjobs.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 26.06 | trick_data_record_group_frame.shutdown
@@ -201,5 +201,6 @@ Integration Loop:
 
       1 |   0 |derivative               | 60000 | 0.000000 |        1 |    1e+37 | 21.02 | dyn.paperPlane.airplane_deriv
       1 |   0 |integration              | 60000 | 0.000000 |        1 |    1e+37 | 21.03 | dyn.paperPlane.airplane_integ
+      1 |   0 |dynamic_event            | 60000 | 0.000000 |        1 |    1e+37 | 21.04 | dyn.paperPlane.airplane_impact
 
 ===================================================================================================

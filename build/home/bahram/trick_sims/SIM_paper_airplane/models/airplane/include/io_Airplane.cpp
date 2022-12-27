@@ -101,6 +101,11 @@ ATTRIBUTES attrAirplane[] = {
   15,TRICK_DOUBLE, sizeof(double), 0, 0, Language_CPP, 4,
   160, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
   NULL, NULL, NULL, NULL},
+{"rf", "REGULA_FALSI", "1", "", "",
+  "",
+  15,TRICK_STRUCTURED, 0, 0, 0, Language_CPP, 0,
+  168, NULL, 0, {{0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}, {0, 0}},
+  NULL, NULL, NULL, NULL},
 {"", "", "1", "", "",
   "",
   15,TRICK_VOID, 0, 0, 0, Language_CPP, 0,
@@ -118,6 +123,7 @@ void init_attrAirplane() {
     }
     initialized = 1;
 
+    trick_MM->add_attr_info(std::string(attrAirplane[16].type_name) , &attrAirplane[16], __FILE__ , __LINE__ ) ;
 }
 
 extern "C" {
@@ -161,6 +167,7 @@ struct UnitsMapAirplane {
         units_map_ptr->add_param("Airplane_surfaceArea", "m^2") ;
         units_map_ptr->add_param("Airplane_crossArea", "m^2") ;
         units_map_ptr->add_param("Airplane_airDensity", "1") ;
+        units_map_ptr->add_param("Airplane_rf", "1") ;
     }
 } umAirplane;
 

@@ -2722,57 +2722,59 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_PaperAirplaneSimObject swig_types[30]
 #define SWIGTYPE_p_REF2 swig_types[31]
 #define SWIGTYPE_p_REF_TYPE swig_types[32]
-#define SWIGTYPE_p_RTSyncSimObject swig_types[33]
-#define SWIGTYPE_p_SEND_ME swig_types[34]
-#define SWIGTYPE_p_SIM_COMMAND swig_types[35]
-#define SWIGTYPE_p_SIM_MODE swig_types[36]
-#define SWIGTYPE_p_SieSimObject swig_types[37]
-#define SWIGTYPE_p_SimObjectVector swig_types[38]
-#define SWIGTYPE_p_SysSimObject swig_types[39]
-#define SWIGTYPE_p_TCCommBlocking swig_types[40]
-#define SWIGTYPE_p_TCCommFlag swig_types[41]
-#define SWIGTYPE_p_TCDevice swig_types[42]
-#define SWIGTYPE_p_TIME_OFFSET swig_types[43]
-#define SWIGTYPE_p_TRICK_ALLOC_TYPE swig_types[44]
-#define SWIGTYPE_p_TRICK_STCL swig_types[45]
-#define SWIGTYPE_p_TRICK_TYPE swig_types[46]
-#define SWIGTYPE_p_TSMDevice swig_types[47]
-#define SWIGTYPE_p_TagsIterator swig_types[48]
-#define SWIGTYPE_p_TrickErrorLevel swig_types[49]
-#define SWIGTYPE_p_Trick__MSSharedMemData swig_types[50]
-#define SWIGTYPE_p_Trick__MonteVarCalculated swig_types[51]
-#define SWIGTYPE_p_Trick__MonteVarFile swig_types[52]
-#define SWIGTYPE_p_Trick__MonteVarFixed swig_types[53]
-#define SWIGTYPE_p_Trick__MonteVarRandom swig_types[54]
-#define SWIGTYPE_p_Trick__VarNameElement swig_types[55]
-#define SWIGTYPE_p_Trick__VarNameElementType swig_types[56]
-#define SWIGTYPE_p_UdUnitsSimObject swig_types[57]
-#define SWIGTYPE_p_UnitTestSimObject swig_types[58]
-#define SWIGTYPE_p_VALUE swig_types[59]
-#define SWIGTYPE_p_VALUE_LIST swig_types[60]
-#define SWIGTYPE_p_VAR_DECLARE swig_types[61]
-#define SWIGTYPE_p_VAR_LIST swig_types[62]
-#define SWIGTYPE_p_VS_COPY_MODE swig_types[63]
-#define SWIGTYPE_p_VS_MESSAGE_TYPE swig_types[64]
-#define SWIGTYPE_p_VS_WRITE_MODE swig_types[65]
-#define SWIGTYPE_p_V_DATA swig_types[66]
-#define SWIGTYPE_p_VariableServerSimObject swig_types[67]
-#define SWIGTYPE_p_ZeroconfSimObject swig_types[68]
-#define SWIGTYPE_p__DLLIST swig_types[69]
-#define SWIGTYPE_p__DLLNODE swig_types[70]
-#define SWIGTYPE_p__TrickErrorHndlr swig_types[71]
-#define SWIGTYPE_p_allocator_type swig_types[72]
-#define SWIGTYPE_p_char swig_types[73]
-#define SWIGTYPE_p_difference_type swig_types[74]
-#define SWIGTYPE_p_size_type swig_types[75]
-#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t swig_types[76]
-#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t__const_iterator swig_types[77]
-#define SWIGTYPE_p_std__mapT_std__string_ENUM_ATTR_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ENUM_ATTR_p_t_t_t swig_types[78]
-#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t swig_types[79]
-#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t__const_iterator swig_types[80]
-#define SWIGTYPE_p_v_tree swig_types[81]
-static swig_type_info *swig_types[83];
-static swig_module_info swig_module = {swig_types, 82, 0, 0, 0, 0};
+#define SWIGTYPE_p_REGULA_FALSI swig_types[33]
+#define SWIGTYPE_p_RTSyncSimObject swig_types[34]
+#define SWIGTYPE_p_Regula_Falsi swig_types[35]
+#define SWIGTYPE_p_SEND_ME swig_types[36]
+#define SWIGTYPE_p_SIM_COMMAND swig_types[37]
+#define SWIGTYPE_p_SIM_MODE swig_types[38]
+#define SWIGTYPE_p_SieSimObject swig_types[39]
+#define SWIGTYPE_p_SimObjectVector swig_types[40]
+#define SWIGTYPE_p_SysSimObject swig_types[41]
+#define SWIGTYPE_p_TCCommBlocking swig_types[42]
+#define SWIGTYPE_p_TCCommFlag swig_types[43]
+#define SWIGTYPE_p_TCDevice swig_types[44]
+#define SWIGTYPE_p_TIME_OFFSET swig_types[45]
+#define SWIGTYPE_p_TRICK_ALLOC_TYPE swig_types[46]
+#define SWIGTYPE_p_TRICK_STCL swig_types[47]
+#define SWIGTYPE_p_TRICK_TYPE swig_types[48]
+#define SWIGTYPE_p_TSMDevice swig_types[49]
+#define SWIGTYPE_p_TagsIterator swig_types[50]
+#define SWIGTYPE_p_TrickErrorLevel swig_types[51]
+#define SWIGTYPE_p_Trick__MSSharedMemData swig_types[52]
+#define SWIGTYPE_p_Trick__MonteVarCalculated swig_types[53]
+#define SWIGTYPE_p_Trick__MonteVarFile swig_types[54]
+#define SWIGTYPE_p_Trick__MonteVarFixed swig_types[55]
+#define SWIGTYPE_p_Trick__MonteVarRandom swig_types[56]
+#define SWIGTYPE_p_Trick__VarNameElement swig_types[57]
+#define SWIGTYPE_p_Trick__VarNameElementType swig_types[58]
+#define SWIGTYPE_p_UdUnitsSimObject swig_types[59]
+#define SWIGTYPE_p_UnitTestSimObject swig_types[60]
+#define SWIGTYPE_p_VALUE swig_types[61]
+#define SWIGTYPE_p_VALUE_LIST swig_types[62]
+#define SWIGTYPE_p_VAR_DECLARE swig_types[63]
+#define SWIGTYPE_p_VAR_LIST swig_types[64]
+#define SWIGTYPE_p_VS_COPY_MODE swig_types[65]
+#define SWIGTYPE_p_VS_MESSAGE_TYPE swig_types[66]
+#define SWIGTYPE_p_VS_WRITE_MODE swig_types[67]
+#define SWIGTYPE_p_V_DATA swig_types[68]
+#define SWIGTYPE_p_VariableServerSimObject swig_types[69]
+#define SWIGTYPE_p_ZeroconfSimObject swig_types[70]
+#define SWIGTYPE_p__DLLIST swig_types[71]
+#define SWIGTYPE_p__DLLNODE swig_types[72]
+#define SWIGTYPE_p__TrickErrorHndlr swig_types[73]
+#define SWIGTYPE_p_allocator_type swig_types[74]
+#define SWIGTYPE_p_char swig_types[75]
+#define SWIGTYPE_p_difference_type swig_types[76]
+#define SWIGTYPE_p_size_type swig_types[77]
+#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t swig_types[78]
+#define SWIGTYPE_p_std__mapT_std__string_ALLOC_INFO_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ALLOC_INFO_p_t_t_t__const_iterator swig_types[79]
+#define SWIGTYPE_p_std__mapT_std__string_ENUM_ATTR_p_std__lessT_std__string_t_std__allocatorT_std__pairT_std__string_const_ENUM_ATTR_p_t_t_t swig_types[80]
+#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t swig_types[81]
+#define SWIGTYPE_p_std__mapT_void_p_ALLOC_INFO_p_std__greaterT_void_p_t_std__allocatorT_std__pairT_void_pconst_ALLOC_INFO_p_t_t_t__const_iterator swig_types[82]
+#define SWIGTYPE_p_v_tree swig_types[83]
+static swig_type_info *swig_types[85];
+static swig_module_info swig_module = {swig_types, 84, 0, 0, 0, 0};
 #define SWIG_TypeQuery(name) SWIG_TypeQueryModule(&swig_module, &swig_module, name)
 #define SWIG_MangledTypeQuery(name) SWIG_MangledTypeQueryModule(&swig_module, &swig_module, name)
 
@@ -3530,7 +3532,9 @@ static swig_type_info _swigt__p_NAME_TO_ATTR = {"_p_NAME_TO_ATTR", "NAME_TO_ATTR
 static swig_type_info _swigt__p_PaperAirplaneSimObject = {"_p_PaperAirplaneSimObject", "PaperAirplaneSimObject *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_REF2 = {"_p_REF2", "REF2 *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_REF_TYPE = {"_p_REF_TYPE", "enum REF_TYPE *|REF_TYPE *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_REGULA_FALSI = {"_p_REGULA_FALSI", "REGULA_FALSI *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_RTSyncSimObject = {"_p_RTSyncSimObject", "RTSyncSimObject *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_Regula_Falsi = {"_p_Regula_Falsi", "enum Regula_Falsi *|Regula_Falsi *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SEND_ME = {"_p_SEND_ME", "SEND_ME *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SIM_COMMAND = {"_p_SIM_COMMAND", "enum SIM_COMMAND *|SIM_COMMAND *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_SIM_MODE = {"_p_SIM_MODE", "enum SIM_MODE *|SIM_MODE *", 0, 0, (void*)0, 0};
@@ -3614,7 +3618,9 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_PaperAirplaneSimObject,
   &_swigt__p_REF2,
   &_swigt__p_REF_TYPE,
+  &_swigt__p_REGULA_FALSI,
   &_swigt__p_RTSyncSimObject,
+  &_swigt__p_Regula_Falsi,
   &_swigt__p_SEND_ME,
   &_swigt__p_SIM_COMMAND,
   &_swigt__p_SIM_MODE,
@@ -3698,7 +3704,9 @@ static swig_cast_info _swigc__p_NAME_TO_ATTR[] = {  {&_swigt__p_NAME_TO_ATTR, 0,
 static swig_cast_info _swigc__p_PaperAirplaneSimObject[] = {  {&_swigt__p_PaperAirplaneSimObject, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_REF2[] = {  {&_swigt__p_REF2, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_REF_TYPE[] = {  {&_swigt__p_REF_TYPE, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_REGULA_FALSI[] = {  {&_swigt__p_REGULA_FALSI, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_RTSyncSimObject[] = {  {&_swigt__p_RTSyncSimObject, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_Regula_Falsi[] = {  {&_swigt__p_Regula_Falsi, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SEND_ME[] = {  {&_swigt__p_SEND_ME, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SIM_COMMAND[] = {  {&_swigt__p_SIM_COMMAND, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_SIM_MODE[] = {  {&_swigt__p_SIM_MODE, 0, 0, 0},{0, 0, 0, 0}};
@@ -3782,7 +3790,9 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_PaperAirplaneSimObject,
   _swigc__p_REF2,
   _swigc__p_REF_TYPE,
+  _swigc__p_REGULA_FALSI,
   _swigc__p_RTSyncSimObject,
+  _swigc__p_Regula_Falsi,
   _swigc__p_SEND_ME,
   _swigc__p_SIM_COMMAND,
   _swigc__p_SIM_MODE,
