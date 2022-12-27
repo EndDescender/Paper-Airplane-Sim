@@ -36,6 +36,9 @@ int Airplane::default_data()
     surfaceArea = 0.023;
     crossArea = 0.008;
 
+    Cl = 0.17;
+    Cd = 0.03;
+
     airDensity = 1.225;
     
     return 0;
@@ -59,8 +62,7 @@ int Airplane::airplane_deriv()
     double velocity = sqrt(velocitySquared);
     double forceGravity = mass * -9.81;
 
-    Cl = InterpolateCl(angleDeg, angles, ClArray);
-    Cd = InterpolateCd(Cl, CdArray, ClArray);
+
 
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * velocity * velocity;
 
