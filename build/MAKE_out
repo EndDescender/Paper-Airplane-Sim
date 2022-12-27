@@ -1,0 +1,37 @@
+/home/bahram/trick/libexec/trick/configuration_processor 
+[34mParsing    [00m[0mS_define[00m[0m[00m
+[34mProcessing [00m[0mS_define[00m
+[34mProcessing [00m[0m/usr/include/stdc-predef.h[00m
+[34mContinuing [00m[0mS_define[00m
+[34mProcessing [00m[0m/home/bahram/trick/share/trick/sim_objects/default_trick_sys.sm[00m
+[34mProcessing [00m[0mSysSimObject[00m
+[34mProcessing [00m[0mMonteCarloSimObject[00m
+[34mProcessing [00m[0mMemoryManagerSimObject[00m
+[34mProcessing [00m[0mCheckPointRestartSimObject[00m
+[34mProcessing [00m[0mSieSimObject[00m
+[34mProcessing [00m[0mCommandLineArgumentsSimObject[00m
+[34mProcessing [00m[0mMessageSimObject[00m
+[34mProcessing [00m[0mJITSimObject[00m
+[34mProcessing [00m[0mInputProcessorSimObject[00m
+[34mProcessing [00m[0mThreadProcessEventSimObject[00m
+[34mProcessing [00m[0mEventManagerSimObject[00m
+[34mProcessing [00m[0mVariableServerSimObject[00m
+[34mProcessing [00m[0mDataRecordDispatcherSimObject[00m
+[34mProcessing [00m[0mRTSyncSimObject[00m
+[34mProcessing [00m[0mFrameLogSimObject[00m
+[34mProcessing [00m[0mMasterSlaveSimObject[00m
+[34mProcessing [00m[0mInstrumentationSimObject[00m
+[34mProcessing [00m[0mInjectorExecSimObject[00m
+[34mProcessing [00m[0mInjectorSimObject[00m
+[34mProcessing [00m[0mZeroconfSimObject[00m
+[34mProcessing [00m[0mUnitTestSimObject[00m
+[34mProcessing [00m[0mUdUnitsSimObject[00m
+[34mContinuing [00m[0mS_define[00m
+[34mProcessing [00m[0mPaperAirplaneSimObject[00m
+[34mFinished   [00m[0mS_define[00m
+[34mWriting    [00m[0mS_source.c[00m
+/home/bahram/trick/libexec/trick/make_makefile_swig
+/home/bahram/trick/bin/trick-ICG -m  -g -Wall -Wextra -Wshadow -Imodels -isystem/home/bahram/trick/trick_source -isystem/home/bahram/trick/include -isystem/home/bahram/trick/include/trick/compat -DTRICK_VER=19 -DTRICK_MINOR=6 -fpic  -DUSE_ER7_UTILS_INTEGRATORS S_source.hh
+[34mWriting    [39mbuild/home/bahram/trick_sims/SIM_paper_airplane/io_S_source.cpp
+[34mWriting[39m    Makefile_io_src
+/home/bahram/trick/libexec/trick/make_makefile_src build/Makefile_src_deps build/Makefile_io_src S_source.hh /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/Airplane.hh /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp 2>&1

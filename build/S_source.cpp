@@ -1,5 +1,5 @@
 
-/* Created 2022/12/24 00:31:22 bahram $ */
+/* Created 2022/12/26 19:55:03 bahram $ */
 #include "../S_source.hh"
 
 
@@ -1154,8 +1154,8 @@ Trick::ClassSizeCheck * Trick::ClassSizeCheck::pInstance = NULL ;
 void memory_init( void ) {
 
     ALLOC_INFO * ai ;
-    exec_set_version_date_tag( "@(#)CP Version 19.6.0-beta, Sat Dec 24 00:31:22 2022" ) ;
-    exec_set_build_date( "Sat Dec 24 00:31:22 2022" ) ;
+    exec_set_version_date_tag( "@(#)CP Version 19.6.0-beta, Mon Dec 26 19:55:03 2022" ) ;
+    exec_set_build_date( "Mon Dec 26 19:55:03 2022" ) ;
     exec_set_current_version( "19.6.0-beta" ) ;
 
     populate_sim_services_class_map() ;
