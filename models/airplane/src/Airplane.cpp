@@ -59,8 +59,8 @@ int Airplane::airplane_deriv()
 
     double forceDrag = 0.5 * Cd * airDensity * crossArea * velocity * velocity;
 
-    double forceY = forceGravity + forceLift;
-    double forceX = -forceDrag;
+    double forceY = forceGravity + cos(angle) * forceLift;
+    double forceX = -forceDrag - sin(angle) * forcelift; /*natually this needs to be minus, but this could change*/
 
     if (!impact)
     {
