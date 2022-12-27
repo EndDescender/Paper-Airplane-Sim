@@ -14,10 +14,10 @@ PURPOSE: (Simulate flight of a paper airplane)
     http://www.lactea.ufpr.br/wp-content/uploads/2018/08/On_the_Aerodynamics_of_Paper_Airplanes.pdf
 */
 
-int numElements = 14;
-double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
-double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
-double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
+const int numElements = 14;
+const double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
+const double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
+const double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
 int i;
 
 int Airplane::default_data()
@@ -59,8 +59,8 @@ int Airplane::airplane_deriv()
     double velocity = sqrt(velocitySquared);
     double forceGravity = mass * -9.81;
 
-    Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
-    Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+    Cl = InterpolateCl(angleDeg, angles, ClArray);
+    Cd = InterpolateCd(Cl, CdArray, ClArray);
 
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * velocity * velocity;
 
@@ -113,11 +113,11 @@ int Airplane::airplane_integ()
     return ipass;
 }
 
-int InterpolateCl(double x, double xValues[], double yValues[])
+double Airplane::InterpolateCl(double x, const double xValues[], const double yValues[])
 {
     for (i = 0; i+2 < numElements && xValues[i] < x; i++)
     {
-        if(xValues[i + 1] = x)
+        if(xValues[i + 1] == x)
         {
             return yValues[i + 1];
         }
@@ -130,11 +130,11 @@ int InterpolateCl(double x, double xValues[], double yValues[])
 
     if (x < lowerX)
     {
-        return Cl[0];
+        return ClArray[0];
     }
     else if (x > upperX)
     {
-        return Cl[numElements];
+        return ClArray[numElements];
     }
     else
     {
@@ -142,7 +142,7 @@ int InterpolateCl(double x, double xValues[], double yValues[])
     }
 }
 
-int InterpolateCd(double y, double xValues[], double yValues[])
+double Airplane::InterpolateCd(double y, const double xValues[], const double yValues[])
 {
     if (yValues[i] == y)
     {
@@ -154,7 +154,7 @@ int InterpolateCd(double y, double xValues[], double yValues[])
     double lowerY = yValues[i];
     double upperY = yValues[i + 1];
 
-    return ((y - lowerY) * (upperX - lowerX)) / (upperY - lowerY) + lowerX
+    return ((y - lowerY) * (upperX - lowerX)) / (upperY - lowerY) + lowerX;
 
 }
 

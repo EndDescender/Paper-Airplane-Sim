@@ -2366,4 +2366,1348 @@ In file included from /usr/include/c++/11/cstdio:42:
 [0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
     __attribute__ ((__malloc__ (dealloc, argno)))
 [0;1;32m                    ^
-[0m
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:18:15: error: size of array ‘angles’ is not an integral constant-expression
+   18 | double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
+      |               ^~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:18:83: error: too many initializers for ‘double [1]’
+   18 | double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
+      |                                                                                   ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:19:16: error: size of array ‘ClArray’ is not an integral constant-expression
+   19 | double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
+      |                ^~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:19:98: error: too many initializers for ‘double [1]’
+   19 | double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
+      |                                                                                                  ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:20:16: error: size of array ‘CdArray’ is not an integral constant-expression
+   20 | double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
+      |                ^~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:20:103: error: too many initializers for ‘double [1]’
+   20 | double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
+      |                                                                                                       ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_deriv()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:41: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                         ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:52: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:10: error: ‘InterpolateCl’ was not declared in this scope
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:36: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:47: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                               ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:10: error: ‘InterpolateCd’ was not declared in this scope
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In function ‘int InterpolateCl(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:120:27: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  120 |         if(xValues[i + 1] = x)
+      |            ~~~~~~~~~~~~~~~^~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:16: error: ‘Cl’ was not declared in this scope
+  133 |         return Cl[0];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:16: error: ‘Cl’ was not declared in this scope
+  137 |         return Cl[numElements];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In function ‘int InterpolateCd(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:157:75: error: expected ‘;’ before ‘}’ token
+  157 |     return ((y - lowerY) * (upperX - lowerX)) / (upperY - lowerY) + lowerX
+      |                                                                           ^
+      |                                                                           ;
+  158 | 
+  159 | }
+      | ~                                                                          
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:18:15: error: size of array ‘angles’ is not an integral constant-expression
+   18 | double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
+      |               ^~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:18:83: error: too many initializers for ‘double [1]’
+   18 | double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
+      |                                                                                   ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:19:16: error: size of array ‘ClArray’ is not an integral constant-expression
+   19 | double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
+      |                ^~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:19:98: error: too many initializers for ‘double [1]’
+   19 | double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
+      |                                                                                                  ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:20:16: error: size of array ‘CdArray’ is not an integral constant-expression
+   20 | double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
+      |                ^~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:20:103: error: too many initializers for ‘double [1]’
+   20 | double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
+      |                                                                                                       ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_deriv()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:41: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                         ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:52: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:10: error: ‘InterpolateCl’ was not declared in this scope
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:36: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:47: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                               ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:10: error: ‘InterpolateCd’ was not declared in this scope
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In function ‘int InterpolateCl(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:120:27: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+  120 |         if(xValues[i + 1] = x)
+      |            ~~~~~~~~~~~~~~~^~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:16: error: ‘Cl’ was not declared in this scope
+  133 |         return Cl[0];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:16: error: ‘Cl’ was not declared in this scope
+  137 |         return Cl[numElements];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_deriv()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:41: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                         ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:52: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:10: error: ‘InterpolateCl’ was not declared in this scope
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:36: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:47: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                               ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:10: error: ‘InterpolateCd’ was not declared in this scope
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In function ‘int InterpolateCl(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:16: error: ‘Cl’ was not declared in this scope
+  133 |         return Cl[0];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:16: error: ‘Cl’ was not declared in this scope
+  137 |         return Cl[numElements];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_deriv()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:41: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                         ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:52: error: expected primary-expression before ‘]’ token
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |                                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:10: error: ‘InterpolateCl’ was not declared in this scope
+   62 |     Cl = InterpolateCl(angleDeg, angles[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:36: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                    ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:47: error: expected primary-expression before ‘]’ token
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |                                               ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:10: error: ‘InterpolateCd’ was not declared in this scope
+   63 |     Cd = InterpolateCd(Cl, CdArray[], ClArray[]);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In function ‘int InterpolateCl(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:16: error: ‘Cl’ was not declared in this scope
+  133 |         return Cl[0];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:16: error: ‘Cl’ was not declared in this scope
+  137 |         return Cl[numElements];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_deriv()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:10: error: ‘InterpolateCl’ was not declared in this scope
+   62 |     Cl = InterpolateCl(angleDeg, angles, ClArray);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:10: error: ‘InterpolateCd’ was not declared in this scope
+   63 |     Cd = InterpolateCd(Cl, CdArray, ClArray);
+      |          ^~~~~~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In function ‘int InterpolateCl(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:16: error: ‘Cl’ was not declared in this scope
+  133 |         return Cl[0];
+      |                ^~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:16: error: ‘Cl’ was not declared in this scope
+  137 |         return Cl[numElements];
+      |                ^~
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:84:
+[1m/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/include/Airplane.hh:38:75: [0m[0;1;31merror: [0m[1mexpected ';' at end of declaration list[0m
+        double InterpolateCl(double x, double xValues[], double yValues[])
+[0;1;32m                                                                          ^
+[0m[0;32m                                                                          ;
+[0mIn file included from build/../S_source.hh:84,
+                 from build/S_source.cpp:3:
+models/airplane/include/Airplane.hh:38:74: error: expected ‘;’ at end of member declaration
+   38 |         double InterpolateCl(double x, double xValues[], double yValues[])
+      |                                                                          ^
+      |                                                                           ;
+models/airplane/include/Airplane.hh:39:74: error: expected ‘;’ at end of member declaration
+   39 |         double InterpolateCd(double y, double xValues[], double yValues[])
+      |                                                                          ^
+      |                                                                           ;
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘int Airplane::airplane_deriv()’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:34: error: invalid conversion from ‘const double*’ to ‘double*’ [-fpermissive]
+   62 |     Cl = InterpolateCl(angleDeg, angles, ClArray);
+      |                                  ^~~~~~
+      |                                  |
+      |                                  const double*
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:5:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/../include/Airplane.hh:38:47: note:   initializing argument 2 of ‘double Airplane::InterpolateCl(double, double*, double*)’
+   38 |         double InterpolateCl(double x, double xValues[], double yValues[]);
+      |                                        ~~~~~~~^~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:62:42: error: invalid conversion from ‘const double*’ to ‘double*’ [-fpermissive]
+   62 |     Cl = InterpolateCl(angleDeg, angles, ClArray);
+      |                                          ^~~~~~~
+      |                                          |
+      |                                          const double*
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:5:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/../include/Airplane.hh:38:65: note:   initializing argument 3 of ‘double Airplane::InterpolateCl(double, double*, double*)’
+   38 |         double InterpolateCl(double x, double xValues[], double yValues[]);
+      |                                                          ~~~~~~~^~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:28: error: invalid conversion from ‘const double*’ to ‘double*’ [-fpermissive]
+   63 |     Cd = InterpolateCd(Cl, CdArray, ClArray);
+      |                            ^~~~~~~
+      |                            |
+      |                            const double*
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:5:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/../include/Airplane.hh:39:47: note:   initializing argument 2 of ‘double Airplane::InterpolateCd(double, double*, double*)’
+   39 |         double InterpolateCd(double y, double xValues[], double yValues[]);
+      |                                        ~~~~~~~^~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:63:37: error: invalid conversion from ‘const double*’ to ‘double*’ [-fpermissive]
+   63 |     Cd = InterpolateCd(Cl, CdArray, ClArray);
+      |                                     ^~~~~~~
+      |                                     |
+      |                                     const double*
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:5:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/../include/Airplane.hh:39:65: note:   initializing argument 3 of ‘double Airplane::InterpolateCd(double, double*, double*)’
+   39 |         double InterpolateCd(double y, double xValues[], double yValues[]);
+      |                                                          ~~~~~~~^~~~~~~~~
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘double Airplane::InterpolateCl(double, double*, double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:18: error: invalid types ‘double[int]’ for array subscript
+  133 |         return Cl[0];
+      |                  ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:18: error: invalid types ‘double[const int]’ for array subscript
+  137 |         return Cl[numElements];
+      |                  ^
+In file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:38:
+In file included from /usr/include/c++/11/iosfwd:40:
+In file included from /usr/include/c++/11/bits/postypes.h:40:
+In file included from /usr/include/c++/11/cwchar:44:
+[1m/usr/include/wchar.h:155:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_free;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:566:5: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+    __attr_dealloc_free;
+[0;1;32m    ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:570:14: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __THROW __attr_dealloc (reallocarray, 1);
+[0;1;32m             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:41:
+In file included from /usr/include/c++/11/cstdlib:75:
+[1m/usr/include/stdlib.h:799:6: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+     __attr_dealloc_free __wur;
+[0;1;32m     ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:189:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:201:25: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                        ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:223:39: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+   __THROW __attribute_malloc__ __wur __attr_dealloc_free;
+[0;1;32m                                      ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:691:30: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_free'[0m
+# define __attr_dealloc_free __attr_dealloc (__builtin_free, 1)
+[0;1;32m                             ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:260:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:285:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:294:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:303:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:309:32: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __THROW __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                               ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:315:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:322:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc_fclose;
+[0;1;32m                       ^
+[0m[1m/usr/include/stdio.h:181:31: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc_fclose'[0m
+#define __attr_dealloc_fclose __attr_dealloc (fclose, 1)
+[0;1;32m                              ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0mIn file included from /home/bahram/trick_sims/SIM_paper_airplane/S_source.hh:11:
+In file included from /usr/include/c++/11/iostream:39:
+In file included from /usr/include/c++/11/ostream:38:
+In file included from /usr/include/c++/11/ios:42:
+In file included from /usr/include/c++/11/bits/ios_base.h:41:
+In file included from /usr/include/c++/11/bits/locale_classes.h:40:
+In file included from /usr/include/c++/11/string:55:
+In file included from /usr/include/c++/11/bits/basic_string.h:6608:
+In file included from /usr/include/c++/11/ext/string_conversions.h:43:
+In file included from /usr/include/c++/11/cstdio:42:
+[1m/usr/include/stdio.h:830:24: [0m[0;1;31merror: [0m[1m'__malloc__' attribute takes no arguments[0m
+  __attribute_malloc__ __attr_dealloc (pclose, 1) __wur;
+[0;1;32m                       ^
+[0m[1m/usr/include/x86_64-linux-gnu/sys/cdefs.h:690:21: [0m[0;1;30mnote: [0mexpanded from macro '__attr_dealloc'[0m
+    __attribute__ ((__malloc__ (dealloc, argno)))
+[0;1;32m                    ^
+[0m/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘double Airplane::InterpolateCl(double, const double*, const double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:18: error: invalid types ‘double[int]’ for array subscript
+  133 |         return Cl[0];
+      |                  ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:18: error: invalid types ‘double[const int]’ for array subscript
+  137 |         return Cl[numElements];
+      |                  ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp: In member function ‘double Airplane::InterpolateCl(double, const double*, const double*)’:
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:133:18: error: invalid types ‘double[double]’ for array subscript
+  133 |         return Cl[0.0];
+      |                  ^
+/home/bahram/trick_sims/SIM_paper_airplane/models/airplane/src/Airplane.cpp:137:18: error: invalid types ‘double[double]’ for array subscript
+  137 |         return Cl[(double) numElements];
+      |                  ^

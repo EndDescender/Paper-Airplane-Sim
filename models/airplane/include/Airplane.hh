@@ -35,6 +35,8 @@ class Airplane
         int initial_data();
         int airplane_deriv();
         int airplane_integ();
+        double InterpolateCl(double x, const double xValues[], const double yValues[]);
+        double InterpolateCd(double y, const double xValues[], const double yValues[]);
         int shutdown();
 };
 

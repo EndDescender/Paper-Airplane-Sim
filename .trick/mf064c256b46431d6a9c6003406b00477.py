@@ -161,6 +161,7 @@ class Airplane(object):
     pos0 = property(_mf064c256b46431d6a9c6003406b00477.Airplane_pos0_get, _mf064c256b46431d6a9c6003406b00477.Airplane_pos0_set)
     init_speed = property(_mf064c256b46431d6a9c6003406b00477.Airplane_init_speed_get, _mf064c256b46431d6a9c6003406b00477.Airplane_init_speed_set)
     angle = property(_mf064c256b46431d6a9c6003406b00477.Airplane_angle_get, _mf064c256b46431d6a9c6003406b00477.Airplane_angle_set)
+    angleDeg = property(_mf064c256b46431d6a9c6003406b00477.Airplane_angleDeg_get, _mf064c256b46431d6a9c6003406b00477.Airplane_angleDeg_set)
     acc = property(_mf064c256b46431d6a9c6003406b00477.Airplane_acc_get, _mf064c256b46431d6a9c6003406b00477.Airplane_acc_set)
     vel = property(_mf064c256b46431d6a9c6003406b00477.Airplane_vel_get, _mf064c256b46431d6a9c6003406b00477.Airplane_vel_set)
     pos = property(_mf064c256b46431d6a9c6003406b00477.Airplane_pos_get, _mf064c256b46431d6a9c6003406b00477.Airplane_pos_set)
@@ -184,6 +185,12 @@ class Airplane(object):
 
     def airplane_integ(self, *args):
         return _mf064c256b46431d6a9c6003406b00477.Airplane_airplane_integ(self, *args)
+
+    def InterpolateCl(self, *args):
+        return _mf064c256b46431d6a9c6003406b00477.Airplane_InterpolateCl(self, *args)
+
+    def InterpolateCd(self, *args):
+        return _mf064c256b46431d6a9c6003406b00477.Airplane_InterpolateCd(self, *args)
 
     def shutdown(self, *args):
         return _mf064c256b46431d6a9c6003406b00477.Airplane_shutdown(self, *args)

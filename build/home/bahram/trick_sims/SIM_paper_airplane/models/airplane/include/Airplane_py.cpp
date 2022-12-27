@@ -4733,6 +4733,101 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Airplane_angleDeg_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  double arg2 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Airplane_angleDeg_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<double >( arg2 , swig_obj[1] , "Airplane_angleDeg_set") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  if (arg1) (arg1)->angleDeg = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Airplane_angleDeg_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  PyObject *swig_obj[1] ;
+  double result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  result = (double) ((arg1)->angleDeg);
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "Airplane_angleDeg_get" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_Airplane_acc_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Airplane *arg1 = (Airplane *) 0 ;
@@ -6101,6 +6196,180 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Airplane_InterpolateCl(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  double arg2 ;
+  double *arg3 ;
+  double *arg4 ;
+  PyObject *swig_obj[4] ;
+  double result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Airplane_InterpolateCl", 4, 4, swig_obj)) SWIG_fail;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<double >( arg2 , swig_obj[1] , "Airplane_InterpolateCl") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  {
+    //ARRAY[] IN
+    int ret ;
+    ret = typemap_in_1dp<double>( swig_obj[2] , "double", "Airplane_InterpolateCl", &arg3) ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted to proper array type");
+    }
+  }
+  {
+    //ARRAY[] IN
+    int ret ;
+    ret = typemap_in_1dp<double>( swig_obj[3] , "double", "Airplane_InterpolateCl", &arg4) ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted to proper array type");
+    }
+  }
+  result = (double)(arg1)->InterpolateCl(arg2,(double const (*))arg3,(double const (*))arg4);
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "Airplane_InterpolateCl" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  {
+    
+  }
+  {
+    
+  }
+  return resultobj;
+fail:
+  {
+    
+  }
+  {
+    
+  }
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Airplane_InterpolateCd(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  double arg2 ;
+  double *arg3 ;
+  double *arg4 ;
+  PyObject *swig_obj[4] ;
+  double result;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Airplane_InterpolateCd", 4, 4, swig_obj)) SWIG_fail;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<double >( arg2 , swig_obj[1] , "Airplane_InterpolateCd") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  {
+    //ARRAY[] IN
+    int ret ;
+    ret = typemap_in_1dp<double>( swig_obj[2] , "double", "Airplane_InterpolateCd", &arg3) ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted to proper array type");
+    }
+  }
+  {
+    //ARRAY[] IN
+    int ret ;
+    ret = typemap_in_1dp<double>( swig_obj[3] , "double", "Airplane_InterpolateCd", &arg4) ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted to proper array type");
+    }
+  }
+  result = (double)(arg1)->InterpolateCd(arg2,(double const (*))arg3,(double const (*))arg4);
+  {
+    // DOUBLE OUT
+    std::string temp_name ;
+    swig_double * t = new swig_double ;
+    t->value = (double)result ;
+    temp_name = "Airplane_InterpolateCd" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_double out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_double out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_double"), SWIG_POINTER_OWN);
+  }
+  {
+    
+  }
+  {
+    
+  }
+  return resultobj;
+fail:
+  {
+    
+  }
+  {
+    
+  }
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_Airplane_shutdown(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Airplane *arg1 = (Airplane *) 0 ;
@@ -6343,6 +6612,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "Airplane_init_speed_get", _wrap_Airplane_init_speed_get, METH_O, NULL},
 	 { "Airplane_angle_set", _wrap_Airplane_angle_set, METH_VARARGS, NULL},
 	 { "Airplane_angle_get", _wrap_Airplane_angle_get, METH_O, NULL},
+	 { "Airplane_angleDeg_set", _wrap_Airplane_angleDeg_set, METH_VARARGS, NULL},
+	 { "Airplane_angleDeg_get", _wrap_Airplane_angleDeg_get, METH_O, NULL},
 	 { "Airplane_acc_set", _wrap_Airplane_acc_set, METH_VARARGS, NULL},
 	 { "Airplane_acc_get", _wrap_Airplane_acc_get, METH_O, NULL},
 	 { "Airplane_vel_set", _wrap_Airplane_vel_set, METH_VARARGS, NULL},
@@ -6369,6 +6640,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "Airplane_initial_data", _wrap_Airplane_initial_data, METH_O, NULL},
 	 { "Airplane_airplane_deriv", _wrap_Airplane_airplane_deriv, METH_O, NULL},
 	 { "Airplane_airplane_integ", _wrap_Airplane_airplane_integ, METH_O, NULL},
+	 { "Airplane_InterpolateCl", _wrap_Airplane_InterpolateCl, METH_VARARGS, NULL},
+	 { "Airplane_InterpolateCd", _wrap_Airplane_InterpolateCd, METH_VARARGS, NULL},
 	 { "Airplane_shutdown", _wrap_Airplane_shutdown, METH_O, NULL},
 	 { "Airplane___getitem__", _wrap_Airplane___getitem__, METH_VARARGS, NULL},
 	 { "Airplane___len__", _wrap_Airplane___len__, METH_O, NULL},
