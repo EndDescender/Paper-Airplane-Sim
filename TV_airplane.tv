@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<trickView>
+    <cyclePeriod>0.5</cyclePeriod>
+    <variable>
+        <name>dyn.paperPlane.pos[0]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">0.0</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.pos[1]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">0.0</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.vel[0]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">17.32050807568877</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m/s</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.vel[1]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">9.999999999999998</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m/s</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.acc[0]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">-5.29897293742525</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m/s2</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.acc[1]</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">-1.807909644446969</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>m/s2</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.Cd</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">0.03</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>--</units>
+    </variable>
+    <variable>
+        <name>dyn.paperPlane.Cl</name>
+        <tvDouble>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xsi:type="xs:double">0.17</value>
+            <format>Decimal</format>
+        </tvDouble>
+        <state>Valid</state>
+        <units>--</units>
+    </variable>
+</trickView>

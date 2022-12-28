@@ -15,15 +15,15 @@ class PaperAirplaneSimObject : public Trick::SimObject
     public : 
         Airplane paperPlane;
 
-        PaperAirplaneSimObject()
-        {
-            ("default_data")    paperPlane.default_data();
-            ("initialization")  paperPlane.initial_data();
-            ("derivative")      paperPlane.airplane_deriv();
-            ("integration")     trick_ret = paperPlane.airplane_integ();
-            ("dynamic_event")   paperPlane.airplane_impact();
-            ("shutdown")        paperPlane.shutdown();
-        }
+    PaperAirplaneSimObject()
+    {
+        ("default_data")    paperPlane.default_data();
+        ("initialization")  paperPlane.initial_data();
+        ("derivative")      paperPlane.airplane_deriv();
+        ("integration")     trick_ret = paperPlane.airplane_integ();
+        ("dynamic_event")   paperPlane.airplane_impact();
+        ("shutdown")        paperPlane.shutdown();
+    }
 } ;
 
 PaperAirplaneSimObject dyn;

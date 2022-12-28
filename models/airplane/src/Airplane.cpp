@@ -165,7 +165,7 @@ double Airplane::airplane_impact()
     double tgo;
     double now;
 
-    rf.error = pos0[1];
+    rf.error = pos[1];
 
     now = get_integ_time();
     tgo = regula_falsi( now, &rf);
