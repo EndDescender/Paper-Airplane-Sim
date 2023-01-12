@@ -1,0 +1,36 @@
+# Paper Airplane Simualtion
+
+Paper airplanes are light, thin, small aircrafts that travel through air rather efectively.
+
+The purpose of this simulation is to show the results of throwing a plane at sea level 
+since a paper plane going above 500 ft is unrealistic. 
+
+# Model:
+
+The model implements drag as a function of velocity, and STP for sea level conditions.
+Forces acting on the plane are lift, weight, thrust, and drag.
+
+# Force of lift:
+
+Lift acts upwards on the plane, it is a function of the mach number, angle, and reynolds number of the aircraft
+travelting through the atmosphere. This can simplify to coefficient of lift, velocity, and dynamic pressure in the equation:
+
+L = Cl * 1/2 * rho * (Velocity ^ 2) * S             Equation 1
+
+S refers to the surface area of the plane. 
+
+
+# Force of drag:
+
+
+
+
+# Running the simulation:
+
+Due to probems with the build file retianing the specific directory that the simulation was built from,
+it is advised to copy everything but the build file from github at https://github.com/EndDescender/Paper-Airplane-Sim
+Also please place the PlaneDisplay file in the $HOME directory. 
+
+Then, run ""trick-CP"" in the directory to build the simulation, and ""./S_main_* RUN_test/input.py"" to run the simulation
+
+
