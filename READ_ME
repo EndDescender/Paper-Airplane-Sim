@@ -1,0 +1,68 @@
+# Paper Airplane Simualtion
+
+Paper airplanes are light, thin, small aircrafts that travel through air rather efectively.
+
+The purpose of this simulation is to show the results of throwing a plane at sea level 
+since a paper plane going above 500 ft is unrealistic. 
+
+# Model:
+
+The model implements drag as a function of velocity, and STP for sea level conditions.
+Forces acting on the plane are lift, weight, thrust, and drag.
+
+# Force of lift:
+
+Lift acts upwards on the plane, it is a function of the mach number, angle, and reynolds number of the aircraft
+travelting through the atmosphere. This can simplify to coefficient of lift, velocity, and dynamic pressure in the equation:
+
+L = Cl * 1/2 * rho * (Velocity ^ 2) * S             Equation 1
+
+S refers to the surface area of the plane.
+
+The constant for surface area in our calculations is 0.023 from a research paper on the 
+aerodynamics of paper planes: http://www.lactea.ufpr.br/wp-content/uploads/2018/08/On_the_Aerodynamics_of_Paper_Airplanes.pdf
+
+rho (the density) assumed the SI value of 1.225 kg/m^3
+
+# Force of drag:
+
+Drag opposes the motion of an object moving through a medium, in this case the medium is air. 
+
+Like lift, drag follows a similar approach to its equation with the only exception being that drag
+uses the cross sectional area since drag acts perpendicular to lift. 
+The equation then is:
+
+D = Cd * 1/2 * rho * (velocity ^ 2) * C             Equation 2
+
+where C is the cross sectional area
+The value for C is 0.008 m^2
+This value came from an educated guess as a paper plane is flat, and a small value for its cross-sectional area
+should not impeded the realism of the simulation. 
+
+
+# Force of thrust:
+
+Thrust is what keeps the plane moving forward, and what primarily resists the effect of drag on the plane
+However, there is no thrust as the plane has no propulsion systems. 
+A technical "thrust" would be the initial velocity given to it.
+
+# Force of weight:
+
+Within Earth's gravity (9.81 m/s^2), weight pulls objects towards the center of the Earth, 
+and in this case it is what will ensure that the plane will come back down. 
+
+Weight is calculated in accordance to Newtons Second Law:
+
+F = m * g                                           Equation 3
+
+m is the mass of the aircraft
+
+# Running the simulation:
+
+Due to probems with the build file retianing the specific directory that the simulation was built from,
+it is advised to copy everything but the build file from github at https://github.com/EndDescender/Paper-Airplane-Sim
+Also please place the PlaneDisplay file in the $HOME directory. 
+
+Then, run ""trick-CP"" in the directory to build the simulation, and ""./S_main_* RUN_test/input.py"" to run the simulation
+
+
