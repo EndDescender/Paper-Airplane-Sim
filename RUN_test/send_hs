@@ -1,19 +1,20 @@
-|L   1|2022/12/28,17:45:26|Braums| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
-|L   1|2022/12/28,17:45:35|Braums| |T 0|0.000000| Freeze OFF.
-|L   0|2022/12/28,17:45:50|Braums| |T 0|15.000000| 
+|L   1|2023/01/12,22:11:28|Braums| |T 0|0.000000| Freeze ON. Simulation time holding at 0.000000 seconds.
+|L   1|2023/01/12,22:11:49|Braums| |T 0|0.000000| Freeze OFF.
+|L   1|2023/01/12,22:12:01|Braums| |T 0|12.200000| Freeze ON. Simulation time holding at 12.200000 seconds.
+|L   0|2023/01/12,22:12:02|Braums| |T 0|12.200000| 
      REALTIME SHUTDOWN STATS:
      REALTIME TOTAL OVERRUNS:            0
-            ACTUAL INIT TIME:        0.264
-         ACTUAL ELAPSED TIME:       24.284
-|L   0|2022/12/28,17:45:50|Braums| |T 0|15.000000| 
+            ACTUAL INIT TIME:        0.237
+         ACTUAL ELAPSED TIME:       34.459
+|L   0|2023/01/12,22:12:02|Braums| |T 0|12.200000| 
 SIMULATION TERMINATED IN
   PROCESS: 0
-  ROUTINE: Executive_loop_single_thread.cpp:98
-  DIAGNOSTIC: Reached termination time
+  ROUTINE: Executive_freeze_loop.cpp:85
+  DIAGNOSTIC: Sim control Shutdown
 
        SIMULATION START TIME:        0.000
-        SIMULATION STOP TIME:       15.000
-     SIMULATION ELAPSED TIME:       15.000
-        ACTUAL CPU TIME USED:        0.346
-       SIMULATION / CPU TIME:       43.341
-     INITIALIZATION CPU TIME:        0.198
+        SIMULATION STOP TIME:       12.200
+     SIMULATION ELAPSED TIME:       12.200
+        ACTUAL CPU TIME USED:        0.357
+       SIMULATION / CPU TIME:       34.133
+     INITIALIZATION CPU TIME:        0.220

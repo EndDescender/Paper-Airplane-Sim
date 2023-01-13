@@ -4,8 +4,8 @@ Trick::Threads (Child_0)
     trigger type = mutex
     number of scheduled jobs = 7
     from Trick::ThreadBase
-    pthread_id = 140368889276224
-    process_id = 18083
+    pthread_id = 140307513407296
+    process_id = 1602
     rt_priority = 0
     cpus = none assigned
 
@@ -52,7 +52,7 @@ Initialization:
       1 |   0 |initialization           | 65534 |          |          |          | 24.01 | trick_data_record_group_frame_userjobs_main.init
       1 |   0 |initialization           | 65534 |          |          |          | 25.01 | trick_data_record_group_frame_trickjobs.init
       1 |   0 |initialization           | 65534 |          |          |          | 26.01 | trick_data_record_group_frame.init
-      1 |   0 |initialization           | 65534 |          |          |          | 27.01 | trick_data_record_group_paper_airplane.init
+      1 |   0 |initialization           | 65534 |          |          |          | 27.01 | trick_data_record_group_my_airplane.init
       1 |   0 |initialization           | 65535 |          |          |          |  1.03 | trick_sys.sched.check_all_jobs_handled
       1 |   0 |initialization           | 65535 |          |          |          |  1.04 | trick_sys.sched.check_all_job_cycle_times
       1 |   0 |initialization           | 65535 |          |          |          |  1.05 | trick_sys.sched.create_threads
@@ -72,7 +72,7 @@ Scheduled Loop:
 
 Thread 0:
       1 |   0 |automatic_last           | 60000 | 0.000000 |        1 |    1e+37 | 11.09 | trick_vs.vs.copy_data_scheduled
-      1 |   0 |data_record              | 60000 | 0.000000 |      0.1 |    1e+37 | 27.99 | trick_data_record_group_paper_airplane.data_record
+      1 |   0 |data_record              | 60000 | 0.000000 |     0.01 |    1e+37 | 27.99 | trick_data_record_group_my_airplane.data_record
       1 |   0 |system_checkpoint        | 0     | 0.000000 |        1 |    1e+37 |  4.03 | trick_cpr.cpr.write_checkpoint
       1 |   0 |system_checkpoint        | 0     | 0.000000 |        1 |    1e+37 |  4.04 | trick_cpr.cpr.safestore_checkpoint
       1 |   0 |system_advance_sim_time  | 60000 | 0.000000 |        1 |    1e+37 |  1.15 | trick_sys.sched.advance_sim_time
@@ -99,7 +99,7 @@ Thread 0:
       1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 24.02 | trick_data_record_group_frame_userjobs_main.write_data
       1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 25.02 | trick_data_record_group_frame_trickjobs.write_data
       1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 26.02 | trick_data_record_group_frame.write_data
-      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 27.02 | trick_data_record_group_paper_airplane.write_data
+      1 |   0 |end_of_frame             | 60000 | 0.000000 |        1 |    1e+37 | 27.02 | trick_data_record_group_my_airplane.write_data
       1 |   0 |end_of_frame             | 65532 | 0.000000 |        1 |    1e+37 | 34.03 | trick_data_record_group_frame_userjobs_main.adjust_time
       1 |   0 |end_of_frame             | 65532 | 0.000000 |        1 |    1e+37 | 35.03 | trick_data_record_group_frame_trickjobs.adjust_time
       1 |   0 |end_of_frame             | 65532 | 0.000000 |        1 |    1e+37 | 36.03 | trick_data_record_group_frame.adjust_time
@@ -143,7 +143,7 @@ Shutdown:
       1 |   0 |shutdown                 | 60000 |          |          |          | 24.06 | trick_data_record_group_frame_userjobs_main.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 25.06 | trick_data_record_group_frame_trickjobs.shutdown
       1 |   0 |shutdown                 | 60000 |          |          |          | 26.06 | trick_data_record_group_frame.shutdown
-      1 |   0 |shutdown                 | 60000 |          |          |          | 27.06 | trick_data_record_group_paper_airplane.shutdown
+      1 |   0 |shutdown                 | 60000 |          |          |          | 27.06 | trick_data_record_group_my_airplane.shutdown
       1 |   0 |shutdown                 | 65534 |          |          |          | 15.15 | trick_master_slave.master.shutdown
       1 |   0 |shutdown                 | 65534 |          |          |          | 15.16 | trick_master_slave.slave.shutdown
       1 |   0 |shutdown                 | 65535 |          |          |          |  9.03 | trick_ip.ip.shutdown
@@ -166,12 +166,12 @@ CheckPointRestart :
       1 |   0 |checkpoint               | 60000 |          |          |          | 24.03 | trick_data_record_group_frame_userjobs_main.checkpoint
       1 |   0 |checkpoint               | 60000 |          |          |          | 25.03 | trick_data_record_group_frame_trickjobs.checkpoint
       1 |   0 |checkpoint               | 60000 |          |          |          | 26.03 | trick_data_record_group_frame.checkpoint
-      1 |   0 |checkpoint               | 60000 |          |          |          | 27.03 | trick_data_record_group_paper_airplane.checkpoint
+      1 |   0 |checkpoint               | 60000 |          |          |          | 27.03 | trick_data_record_group_my_airplane.checkpoint
       1 |   0 |post_checkpoint          | 0     |          |          |          |  1.09 | trick_sys.sched.post_checkpoint
       1 |   0 |post_checkpoint          | 60000 |          |          |          | 24.04 | trick_data_record_group_frame_userjobs_main.clear_checkpoint_vars
       1 |   0 |post_checkpoint          | 60000 |          |          |          | 25.04 | trick_data_record_group_frame_trickjobs.clear_checkpoint_vars
       1 |   0 |post_checkpoint          | 60000 |          |          |          | 26.04 | trick_data_record_group_frame.clear_checkpoint_vars
-      1 |   0 |post_checkpoint          | 60000 |          |          |          | 27.04 | trick_data_record_group_paper_airplane.clear_checkpoint_vars
+      1 |   0 |post_checkpoint          | 60000 |          |          |          | 27.04 | trick_data_record_group_my_airplane.clear_checkpoint_vars
       1 |   0 |preload_checkpoint       | 0     |          |          |          | 22.04 | dyn_integloop.integ_sched.restart_checkpoint
       1 |   0 |preload_checkpoint       | 60000 |          |          |          | 10.06 | trick_em.em.preload_checkpoint
       1 |   0 |preload_checkpoint       | 60000 |          |          |          | 10.07 | trick_em.ep.preload_checkpoint
@@ -189,7 +189,7 @@ CheckPointRestart :
       1 |   0 |restart                  | 60001 |          |          |          | 24.05 | trick_data_record_group_frame_userjobs_main.restart
       1 |   0 |restart                  | 60001 |          |          |          | 25.05 | trick_data_record_group_frame_trickjobs.restart
       1 |   0 |restart                  | 60001 |          |          |          | 26.05 | trick_data_record_group_frame.restart
-      1 |   0 |restart                  | 60001 |          |          |          | 27.05 | trick_data_record_group_paper_airplane.restart
+      1 |   0 |restart                  | 60001 |          |          |          | 27.05 | trick_data_record_group_my_airplane.restart
       1 |   0 |restart                  | 65534 |          |          |          |  1.10 | trick_sys.exec_collect_init
       1 |   0 |restart                  | 65535 |          |          |          | 10.02 | trick_em.ep.add_pending_events
       1 |   0 |restart                  | 65535 |          |          |          | 13.05 | trick_real_time.rt_sync.restart

@@ -32,6 +32,8 @@ class Airplane
 
         double airDensity;   /* -- Constant air density at sea level*/
 
+        int i;               /* -- Looping variable*/
+
         REGULA_FALSI rf;
 
         int default_data();

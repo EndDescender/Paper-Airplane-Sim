@@ -174,6 +174,7 @@ class Airplane(object):
     surfaceArea = property(_mf064c256b46431d6a9c6003406b00477.Airplane_surfaceArea_get, _mf064c256b46431d6a9c6003406b00477.Airplane_surfaceArea_set)
     crossArea = property(_mf064c256b46431d6a9c6003406b00477.Airplane_crossArea_get, _mf064c256b46431d6a9c6003406b00477.Airplane_crossArea_set)
     airDensity = property(_mf064c256b46431d6a9c6003406b00477.Airplane_airDensity_get, _mf064c256b46431d6a9c6003406b00477.Airplane_airDensity_set)
+    i = property(_mf064c256b46431d6a9c6003406b00477.Airplane_i_get, _mf064c256b46431d6a9c6003406b00477.Airplane_i_set)
     rf = property(_mf064c256b46431d6a9c6003406b00477.Airplane_rf_get, _mf064c256b46431d6a9c6003406b00477.Airplane_rf_set)
 
     def default_data(self, *args):

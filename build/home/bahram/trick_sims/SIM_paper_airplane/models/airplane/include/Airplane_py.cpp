@@ -5998,6 +5998,101 @@ fail:
 }
 
 
+SWIGINTERN PyObject *_wrap_Airplane_i_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  int arg2 ;
+  PyObject *swig_obj[2] ;
+  
+  if (!SWIG_Python_UnpackTuple(args, "Airplane_i_set", 2, 2, swig_obj)) SWIG_fail;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  {
+    int ret ;
+    ret = typemap_in_scalar<int >( arg2 , swig_obj[1] , "Airplane_i_set") ;
+    if ( ret != 0 ) {
+      SWIG_exception_fail(SWIG_TypeError,"Right hand side could not be converted proper scalar type");
+    }
+  }
+  if (arg1) (arg1)->i = arg2;
+  resultobj = SWIG_Py_Void();
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_Airplane_i_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+  PyObject *resultobj = 0;
+  Airplane *arg1 = (Airplane *) 0 ;
+  PyObject *swig_obj[1] ;
+  int result;
+  
+  if (!args) SWIG_fail;
+  swig_obj[0] = args;
+  {
+    // Airplane *
+    void * temp_ptr ;
+    
+    if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIGTYPE_p_Airplane, SWIG_POINTER_DISOWN)) ) {
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_swig_ref"), 0)) ) {
+      // Array to pointer assignment
+      swig_ref * temp_swig_ref = reinterpret_cast< swig_ref * >(temp_ptr);
+      if ( temp_swig_ref != NULL ) {
+        arg1 = reinterpret_cast< Airplane * >(temp_swig_ref->ref.address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_REF2"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      REF2 * temp_ref = reinterpret_cast< REF2 * >(temp_ptr) ;
+      if ( temp_ref != NULL ){
+        arg1 = reinterpret_cast< Airplane * >(temp_ref->address) ;
+      }
+    } else if ( SWIG_IsOK(SWIG_ConvertPtr(swig_obj[0], &temp_ptr,SWIG_TypeQuery("_p_void"), 0)) ) {
+      // We have an address coming in, we don't have to do any translation
+      arg1 = reinterpret_cast< Airplane * >(temp_ptr) ;
+    }
+  }
+  result = (int) ((arg1)->i);
+  {
+    // INT OUT
+    std::string temp_name ;
+    swig_int * t = new swig_int ;
+    t->value = (long long)result ;
+    temp_name = "Airplane_i_get" ;
+    temp_name.erase(temp_name.length() - 4) ;
+    //cout << "swig_int out looking for param " << temp_name << std::endl ;
+    t->units = Trick::UnitsMap::units_map()->get_units(temp_name) ;
+    //cout << "swig_int out found units " << t->units << std::endl ;
+    resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(t), SWIG_TypeQuery("_p_swig_int"), SWIG_POINTER_OWN);
+  }
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
 SWIGINTERN PyObject *_wrap_Airplane_rf_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
   Airplane *arg1 = (Airplane *) 0 ;
@@ -6772,6 +6867,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "Airplane_crossArea_get", _wrap_Airplane_crossArea_get, METH_O, NULL},
 	 { "Airplane_airDensity_set", _wrap_Airplane_airDensity_set, METH_VARARGS, NULL},
 	 { "Airplane_airDensity_get", _wrap_Airplane_airDensity_get, METH_O, NULL},
+	 { "Airplane_i_set", _wrap_Airplane_i_set, METH_VARARGS, NULL},
+	 { "Airplane_i_get", _wrap_Airplane_i_get, METH_O, NULL},
 	 { "Airplane_rf_set", _wrap_Airplane_rf_set, METH_VARARGS, NULL},
 	 { "Airplane_rf_get", _wrap_Airplane_rf_get, METH_O, NULL},
 	 { "Airplane_default_data", _wrap_Airplane_default_data, METH_O, NULL},

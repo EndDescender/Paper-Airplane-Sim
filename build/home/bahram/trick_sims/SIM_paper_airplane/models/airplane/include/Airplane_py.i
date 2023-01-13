@@ -63,6 +63,9 @@ class Airplane
         double airDensity;   
 
 
+        int i;               
+
+
         REGULA_FALSI rf;
 
         int default_data();

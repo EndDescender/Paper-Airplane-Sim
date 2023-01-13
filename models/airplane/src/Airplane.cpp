@@ -18,13 +18,12 @@ const int numElements = 14;
 const double angles[numElements] = {0, 5, 10, 15, 20, 25, 30, 35, 38, 40, 42, 43, 44, 46};
 const double ClArray[numElements] = {0, .15, .31, .49, .66, .80, .89, .94, .94, .93, .92, .91, .90, .87};
 const double CdArray[numElements] = {0, 0.04, 0.075, 0.15, .25, .375, .52, .66, .74, .79, .84, .86, .88, .91};
-int i;
 
 int Airplane::default_data()
 {
     init_speed = 20.0;
-    angle = M_PI / 6;
-    angleDeg = angle * 180 / M_PI;
+    angleDeg = 48.0;
+    angle = angleDeg / 180 * M_PI;
 
     pos[0] = 0.0;
     pos[1] = 0.0;
@@ -32,7 +31,7 @@ int Airplane::default_data()
     impactTime = 0.0;
     impact = false;
 
-    mass = .1;
+    mass = .5;
     surfaceArea = 0.023;
     crossArea = 0.008;
 
@@ -53,6 +52,9 @@ int Airplane::initial_data()
     vel[0] =  vel0[0];
     vel[1] =  vel0[1];
 
+    Cl = InterpolateCl(angleDeg, angles, ClArray);
+    Cd = InterpolateCd(Cl, CdArray, ClArray);
+
     return 0;
 }
 
@@ -61,7 +63,6 @@ int Airplane::airplane_deriv()
     double velocitySquared = pow(vel[0], 2) + pow(vel[1], 2);
     double velocity = sqrt(velocitySquared);
     double forceGravity = mass * -9.81;
-
 
 
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * velocity * velocity;
@@ -119,16 +120,16 @@ double Airplane::InterpolateCl(double x, const double xValues[], const double yV
 {
     for (i = 0; i+2 < numElements && xValues[i] < x; i++)
     {
-        // if(xValues[i + 1] == x)
-        // {
-        //     return yValues[i + 1];
-        // }
+        if(xValues[i + 1] == x)
+        {
+            return yValues[i + 1];
+        }
     }
 
-    double lowerX = xValues[i];
-    double upperX = xValues[i + 1];
-    double lowerY = yValues[i];
-    double upperY = yValues[i + 1];
+    double lowerX = xValues[i - 1];
+    double upperX = xValues[i];
+    double lowerY = yValues[i - 1];
+    double upperY = yValues[i];
 
     if (x < lowerX)
     {
@@ -136,7 +137,7 @@ double Airplane::InterpolateCl(double x, const double xValues[], const double yV
     }
     else if (x > upperX)
     {
-        return ClArray[numElements];
+        return ClArray[numElements - 1];
     }
     else
     {
@@ -146,15 +147,15 @@ double Airplane::InterpolateCl(double x, const double xValues[], const double yV
 
 double Airplane::InterpolateCd(double y, const double xValues[], const double yValues[])
 {
-    // if (yValues[i] == y)
-    // {
-    //     return xValues[i];
-    // }
+    if (yValues[i] == y)
+    {
+       return xValues[i];
+    }
     
-    double lowerX = xValues[i];
-    double upperX = xValues[i + 1];
-    double lowerY = yValues[i];
-    double upperY = yValues[i + 1];
+    double lowerX = xValues[i - 1];
+    double upperX = xValues[i];
+    double lowerY = yValues[i - 1];
+    double upperY = yValues[i];
 
     return ((y - lowerY) * (upperX - lowerX)) / (upperY - lowerY) + lowerX;
 
