@@ -44,6 +44,7 @@ int Airplane::default_data()
 
 }
 
+/*initializing data*/
 int Airplane::initial_data()
 {
     vel0[0] =  init_speed * cos(angle);
@@ -57,7 +58,7 @@ int Airplane::initial_data()
 
     return 0;
 }
-
+/* Equations for plane flight */
 int Airplane::airplane_deriv()
 {
     double velocitySquared = pow(vel[0], 2) + pow(vel[1], 2);
@@ -67,10 +68,10 @@ int Airplane::airplane_deriv()
 
     double forceLift = 0.5 * Cl * airDensity * surfaceArea * velocity * velocity;
 
-    double forceDrag = 0.5 * Cd * airDensity * crossArea * velocity * velocity;
+    double forceDrag = -0.5 * Cd * airDensity * crossArea * velocity * velocity;
 
     double forceY = forceGravity + cos(angle) * forceLift - forceDrag * sin(angle);
-    double forceX = -forceDrag * cos(angle) - sin(angle) * forceLift; /*natually this needs to be minus, but this could change*/
+    double forceX = forceDrag * cos(angle) - sin(angle) * forceLift; 
 
     if (!impact)
     {
@@ -116,6 +117,7 @@ int Airplane::airplane_integ()
     return ipass;
 }
 
+/*interpolating through the Cl table to calculate Cl*/
 double Airplane::InterpolateCl(double x, const double xValues[], const double yValues[])
 {
     for (i = 0; i+2 < numElements && xValues[i] < x; i++)
@@ -145,6 +147,7 @@ double Airplane::InterpolateCl(double x, const double xValues[], const double yV
     }
 }
 
+/*interpolating through Cd table to get value for Cd*/
 double Airplane::InterpolateCd(double y, const double xValues[], const double yValues[])
 {
     if (yValues[i] == y)
@@ -161,6 +164,7 @@ double Airplane::InterpolateCd(double y, const double xValues[], const double yV
 
 }
 
+/*updating in real time for plane impact*/
 double Airplane::airplane_impact()
 {
     double tgo;
