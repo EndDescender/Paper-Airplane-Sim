@@ -139,14 +139,14 @@ while(True):
         if launchCommand:
             launchCommand = False
             launchButton.config(state=DISABLED)
-            
-            client_socket.send( ("dyn.paperPlane.init_speed = " + str(speedScale.get()) + " \n").encode("utf-8"))                
-            client_socket.send( ("dyn.paperPlane.angleDeg = " + str(angleScale.get()) + " \n").encode("utf-8"))
-            client_socket.send( ("dyn.paperPlane.mass = " + str(massScale.get())+ " \n").encode())
-            
+
             client_socket.send( "dyn.paperPlane.default_data()\n".encode()) #This line is dependent on how you have the default
             #or initial data set up. Ours was a module so we referenced it the same as the others.
-            
+                          
+            client_socket.send( ("dyn.paperPlane.angleDeg = " + str(angleScale.get()) + " \n").encode("utf-8"))
+            client_socket.send( ("dyn.paperPlane.initial_data()\n".encode()))
+            client_socket.send( ("dyn.paperPlane.init_speed = " + str(speedScale.get()) + " \n").encode("utf-8"))  
+            client_socket.send( ("dyn.paperPlane.mass = " + str(massScale.get())+ " \n").encode() 
             #runs the simulation
             client_socket.send( "trick.exec_run()\n".encode())
 
