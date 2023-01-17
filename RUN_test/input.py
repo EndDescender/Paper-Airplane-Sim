@@ -9,7 +9,7 @@ trick.stop(15)
 # Start the variable server client.
 #==================================
 varServerPort = trick.var_server_get_port()
-PlaneDisplay_path = os.environ['HOME'] + "/PlaneDisplay_Rev1.py"
+PlaneDisplay_path = os.environ['HOME'] + "/PlaneDisplay.py"
 if (os.path.isfile(PlaneDisplay_path)) :
     PlaneDisplay_cmd = PlaneDisplay_path + " " + str(varServerPort) + " &"
     print(PlaneDisplay_cmd)
